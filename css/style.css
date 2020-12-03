@@ -19,7 +19,7 @@ a:hover{color: #fff;}
     /* 头 */
 #header h1 {
     height: 120px;
-    background: url(../images/header.jpg) center;
+    background: url(../images/index/header.jpg) center;
     background-size: auto 100%;
 }
 
@@ -160,7 +160,7 @@ a:hover{color: #fff;}
     width: 55px;
     height: 55px;
     background:
-        url(../images/mi-home.png) no-repeat 50% 50%;
+        url(../images/index/mi-home.png) no-repeat 50% 50%;
     position: absolute;
     left: -55px;
     transition: all .1s;
@@ -171,7 +171,7 @@ a:hover{color: #fff;}
     width: 55px;
     height: 55px;
     background:
-        url(../images/mi-logo.png) no-repeat 50% 50%;
+        url(../images/index/mi-logo.png) no-repeat 50% 50%;
     position: absolute;
     left: 0;
     transition: all .1s;
@@ -204,6 +204,7 @@ a:hover{color: #fff;}
     left: 0;
     top: 100px;
     border-top: 1px solid #ccc;
+    display: none;
 }
 #search .search_menu ul{
     background: #fff;
