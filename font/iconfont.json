@@ -1,0 +1,65 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "339544",
+      "name": "个人中心",
+      "font_class": "icon",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "880429",
+      "name": "扳手",
+      "font_class": "editor2",
+      "unicode": "e62e",
+      "unicode_decimal": 58926
+    },
+    {
+      "icon_id": "1111364",
+      "name": "购物车",
+      "font_class": "gouwuche",
+      "unicode": "e63d",
+      "unicode_decimal": 58941
+    },
+    {
+      "icon_id": "5208045",
+      "name": "左",
+      "font_class": "zuo",
+      "unicode": "e6e7",
+      "unicode_decimal": 59111
+    },
+    {
+      "icon_id": "5208057",
+      "name": "右",
+      "font_class": "you",
+      "unicode": "e6e8",
+      "unicode_decimal": 59112
+    },
+    {
+      "icon_id": "5241228",
+      "name": "客服",
+      "font_class": "kefu",
+      "unicode": "e6ab",
+      "unicode_decimal": 59051
+    },
+    {
+      "icon_id": "8348143",
+      "name": "手机",
+      "font_class": "shouji",
+      "unicode": "e71f",
+      "unicode_decimal": 59167
+    },
+    {
+      "icon_id": "15775057",
+      "name": "放大镜",
+      "font_class": "fangdajing",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    }
+  ]
+}

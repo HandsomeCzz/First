@@ -1,0 +1,343 @@
+/*=============================样式重置=============================*/
+/*----------------------第一步：清样式，清间距-----------------------*/
+body,h1,h2,h3,h4,h5,h6,a,p,ol,ul,li,dl,dt,dd,input{padding: 0; margin: 0; box-sizing: border-box;}
+ul,ol{list-style: none;}
+input{outline: none; border: 0; }
+img{display: block;}
+/*------------------------第二步：定义全局样式-----------------------*/
+/* body{font-size: 14px; color: #3e3e3e; font-family: "微软雅黑"; height: 2000px;} */
+body{font: 14px/1.5 Helvetica Neue,Helvetica,Arial,Microsoft Yahei,Hiragino Sans GB,Heiti SC,WenQuanYi Micro Hei,sans-serif;}
+/*------------------------第三步：定义超链接样式---------------------*/
+a{text-decoration: none; color: #999;}
+a:hover{color: #fff;}
+/*=============================公共样式=============================*/
+.w{width: 1226px; margin: 0 auto;}
+.l{float: left;}
+.r{float: right;}
+
+
+    /* 头 */
+#header h1 {
+    height: 120px;
+    background: url(../images/header.jpg) center;
+    background-size: auto 100%;
+}
+
+    /* 导航 */
+#nav {
+    height: 40px;
+    line-height: 40px;
+    background: #333;
+}
+#nav a {
+    font-size: 12px;
+    color: #b0b0b0;
+}
+#nav span {
+    font-size: 12px;
+    margin: 0 4px;
+    color: #424242;
+}
+#nav .shop {
+    width: 120px;
+    margin-left: 15px;
+    text-align: center;
+}
+#nav .shop a {
+    display: block;
+    height: 40px;
+    background: #424242;
+}
+#nav .shop a span {
+    color: #b0b0b0;
+    font-size: 15px;
+}
+#nav a:hover {
+    color: #fff;
+}
+#nav .shop a:hover {
+    background: #fff;
+    color: #f60;
+}
+#nav .shop a:hover span {
+    color: #f60;
+}
+
+    /* suspension */
+#suspension {
+    height: 400px;
+    width: 80px;
+    position: fixed;
+    right: 0;
+    top: calc(50% - 250px);
+    z-index: 25;
+}
+#suspension ul {
+    height: 100%;
+    width: 100%;
+    border: 1px solid #f5f5f5;
+    border-right: none;
+    border-bottom: none;
+}
+#suspension ul li {
+    width: 100%;
+    height: 20%;
+    border-bottom: 1px solid #f5f5f5;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+#suspension ul li p {
+    text-align: center;
+    color: #757575;
+}
+#suspension ul li p span {
+    font-size: 30px;
+}
+#suspension ul li .qr {
+    width: 100px;
+    height: 160px;
+    padding: 14px;
+    background: #fff;
+    position: absolute;
+    left: -145px;
+    top: 0;
+    transition: all .3s;
+    display: none;
+}
+#suspension ul li img {
+    width: 100%;
+}
+#suspension ul li:hover p {
+    color: #f60;
+}
+#suspension ul li .desc {
+    display: block;
+    width: 82px;
+    margin: 14px auto 0;
+    text-align: center;
+}
+#suspension ul li .qr::after {
+    content: "";
+    width: 20px;
+    border-left: 12px solid #fff;
+    display: block;
+    position: absolute;
+    border-top: 12px solid rgba(0, 0, 0, 0);
+    border-bottom: 12px solid rgba(0, 0, 0, 0);
+    right: -32px;
+    top: 40px;
+}
+#suspension ul li:nth-child(1):hover .qr {
+    display: block;
+}
+
+    /* search */
+#search {
+    height: 100px;
+    position: relative;
+}
+#search article {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* search-logo */
+#search article .search-logo {
+    width: 55px;
+    height: 55px;
+    background: #f60;
+    position: relative;
+    overflow: hidden;
+}
+#search article .search-logo a::before {
+    content: "";
+    display: inline-block;
+    width: 55px;
+    height: 55px;
+    background:
+        url(../images/mi-home.png) no-repeat 50% 50%;
+    position: absolute;
+    left: -55px;
+    transition: all .1s;
+}
+#search article .search-logo a::after {
+    content: "";
+    display: inline-block;
+    width: 55px;
+    height: 55px;
+    background:
+        url(../images/mi-logo.png) no-repeat 50% 50%;
+    position: absolute;
+    left: 0;
+    transition: all .1s;
+}
+#search article .search-logo:hover a::before {
+    left: 0;
+}
+#search article .search-logo:hover a::after {
+    left: 55px;
+}
+
+/* search-nav */
+#search article .search-nav ul li {
+    height: 100%;
+}
+#search article .search-nav ul li a {
+    display: block;
+    padding: 26px 10px 38px;
+    color: #333;
+    font-size: 15px;
+}
+#search article .search-nav ul li a:hover {
+    color: #f60;
+}
+#search .search_menu{
+    width: 100%;
+    /* background: red; */
+    position: absolute;
+    z-index: 3;
+    left: 0;
+    top: 100px;
+    border-top: 1px solid #ccc;
+}
+#search .search_menu ul{
+    background: #fff;
+    height: 180px;
+}
+
+/* search-search */
+#search article .search-search form {
+    width: 296px;
+    height: 50px;
+    position: relative;
+}
+#search article .search-search .text {
+    width: 223px;
+    height: 100%;
+    padding: 10;
+    position: absolute;
+    right: 50px;
+    padding:
+        0 10px;
+    border: 1px solid #ccc;
+    border-right: none;
+}
+#search article .search-search .btn {
+    width: 50px;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    border: 1px solid #ccc;
+    background: #fff;
+    cursor: pointer;
+    color: #616161;
+}
+#search article .search-search .btn:hover {
+    color: #fff;
+    background: #f60;
+    border-color: #f60;
+}
+
+/* banner */
+#banner {
+    position: relative;
+    height: 460px;
+}
+#banner nav {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+#banner nav ul {
+    height: 460px;
+    background: rgba(105, 101, 101, .6);
+    padding: 20px 0;
+}
+#banner nav ul li a {
+    position: relative;
+    width: 234px;
+    display: block;
+    height: 42px;
+    line-height: 42px;
+    padding-left:
+        30px;
+    color: #fff;
+}
+#banner nav ul li a span {
+    position: absolute;
+    right: 30px;
+}
+#banner nav ul li a:hover {
+    background: #f60;
+}
+#banner .banner {
+    width: 100%;
+    height: 100%;
+    background: #ccc;
+    position: relative;
+}
+#banner .banner img {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+#banner .banner .footer {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    display: flex;
+}
+#banner .banner .footer span {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, .4);
+    margin: 0 4px;
+    border: 2px solid rgba(0, 0, 255, .3);
+}
+#banner .banner .btn {
+    position: absolute;
+    right: 0;
+    width: calc(100% - 234px);
+    top: calc(50% - 35px);
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+#banner .banner .btn .banner_btn {
+    height: 100%;
+    background: rgba(255,255,255,0);
+    border: none;
+    outline: none;
+    color:#bbb;
+    font-size: 30px;
+}
+#banner .banner .btn .banner_btn:hover{
+    background: rgba(0,0,0,.4);
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
