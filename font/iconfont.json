@@ -13,6 +13,13 @@
       "unicode_decimal": 58886
     },
     {
+      "icon_id": "778500",
+      "name": "右箭头",
+      "font_class": "youjiantou",
+      "unicode": "e619",
+      "unicode_decimal": 58905
+    },
+    {
       "icon_id": "880429",
       "name": "扳手",
       "font_class": "editor2",

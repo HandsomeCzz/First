@@ -1,0 +1,94 @@
+{
+    "type" : "collocation",
+    "code" : 0,
+    "collocation_list" : [
+        {
+            "imgUrl0" : "/images/index/collocation_1.webp",
+            "h3Text0" : "小米真无线蓝牙耳机Air 2 Pro",
+            "p1Text0" : "主动降噪/持久续航/无线充",
+            "p2Text0" : "699元",
+            "class" : "",
+            "imgUrl1" : "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/3483b4ec83f3d085c567633f2edef1c1.jpg?thumb=1&w=250&h=250&f=webp&q=90",
+            "h3Text1" : "小米电视4C 32英寸",
+            "p1Text1" : "高清液晶屏，人工智能系统",
+            "p2Text1" : "849元<span>999元</span>"
+        },
+        {
+            "imgUrl0" : "/images/index/collocation_2.webp",
+            "h3Text0" : "小米智能门锁 E",
+            "p1Text0": "告别钥匙，畅享便捷生活",
+            "p2Text0": "999元",
+            "class" : "",
+            "imgUrl1" : "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/f193daba3989eadac5e13ae102b91582.jpg?thumb=1&w=250&h=250&f=webp&q=90",
+            "h3Text1" : "全面屏电视 55英寸E55X",
+            "p1Text1" : "潮流全面屏设计",
+            "p2Text1" : "2149元<span>2299元</span>"
+        },
+        {
+            "imgUrl0" : "/images/index/collocation_3.webp",
+            "h3Text0" : "高速无线充电套装",
+            "p1Text0": "快速无线闪充，Qi充电标准",
+            "p2Text0": "149元",
+            "class" : "",
+            "imgUrl1" : "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/9d8674cd21c486feff5328772ab9cf01.jpg?thumb=1&w=250&h=250&f=webp&q=90",
+            "h3Text1" : "小米电视4A 70英寸",
+            "p1Text1" : "大屏更享受",
+            "p2Text1" : "2999元<span>3999元</span>"
+        },
+        {
+            "imgUrl0" : "/images/index/collocation_4.webp",
+            "h3Text0" : "Redmi充电宝 10000mAh 标准版 白色",
+            "p1Text0": "10000mAh大电量",
+            "p2Text0":  "59元",
+            "class" : "",
+            "imgUrl1" : "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/8156dec11073b1f98db8e4b7598262a4.jpg?thumb=1&w=250&h=250&f=webp&q=90",
+            "h3Text1" : "小米电视4C 43英寸",
+            "p1Text1": "FHD全高清屏，钢琴烤漆",
+            "p2Text1":  "1299元<span>1399元</span>"
+        },
+        {
+            "imgUrl0" : "/images/index/collocation_5.webp",
+            "h3Text0" : "Redmi充电宝 20000mAh 快充版",
+            "p1Text0": "大容量，可上飞机",
+            "p2Text0": "99元",
+            "class" : "",
+            "imgUrl1" : "//cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/7e2127506fd2209f3115828404269d45.jpg?thumb=1&w=250&h=250",
+            "h3Text1" : "小米电视4S 75英寸",
+            "p1Text1" : "4K HDR，人工智能语音",
+            "p2Text1" : "4199元<span>5999元</span>"
+        },
+        {
+            "imgUrl0" : "/images/index/collocation_6.webp",
+            "h3Text0" : "小米插线板 5孔位",
+            "p1Text0": "多重安全保护",
+            "p2Text0": "39元",
+            "class" : "",
+            "imgUrl1" : "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/6a3d09cb5b895f8c3706f513552cd53d.jpg?thumb=1&w=250&h=250&f=webp&q=90",
+            "h3Text1" : "小米全面屏电视65英寸 E65C",
+            "p1Text1" : "震撼大屏，时尚全面屏",
+            "p2Text1" : "2799元<span>3099元</span>"
+        },
+        {
+            "imgUrl0" : "/images/index/collocation_7.webp",
+            "h3Text0" : "小米小爱蓝牙音箱 随身版",
+            "p1Text0": "好听，更好看",
+            "p2Text0": "199元",
+            "class" : "",
+            "imgUrl1" : "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/8b3fe3a07ef69fb4c959e39c768c7525.jpg?thumb=1&w=250&h=250&f=webp&q=90",
+            "h3Text1" : "小米全面屏电视E32C",
+            "p1Text1" : "全面屏设计，人工智能系统",
+            "p2Text1" : "899元<span>999元</span>"
+        },
+        {
+            "imgUrl0" : "/images/index/collocation_8.webp",
+            "h3Text0" : "小米无线车充通用快充版",
+            "p1Text0": "129元",
+            "p2Text0": "",
+            "class" : " brick-item",
+            "imgUrl1" : "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/0e7eee530e4a103f2f5a0937a14bed53.jpg?thumb=1&w=125&h=125&f=webp&q=90",
+            "h3Text1" : "小米壁画电视 65英寸",
+            "p1Text1": "6999元",
+            "p2Text1": ""
+        }
+    ]
+}

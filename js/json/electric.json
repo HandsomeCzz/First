@@ -1,0 +1,94 @@
+{
+    "type" : "electric",
+    "code" : 0,
+    "electric_list" : [
+        {
+            "imgUrl0" : "/images/index/electric_1.webp",
+            "h3Text0" : "Redmi 红米电视 70英寸",
+            "p1Text0" : "70英寸震撼巨屏，4K画质，细腻如真",
+            "p2Text0" : "3299元<span>3799元</span>",
+            "class" : "",
+            "imgUrl1" : "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/3483b4ec83f3d085c567633f2edef1c1.jpg?thumb=1&w=250&h=250&f=webp&q=90",
+            "h3Text1" : "小米电视4C 32英寸",
+            "p1Text1" : "高清液晶屏，人工智能系统",
+            "p2Text1" : "849元<span>999元</span>"
+        },
+        {
+            "imgUrl0" : "/images/index/electric_2.webp",
+            "h3Text0" : "小米全面屏电视E32C",
+            "p1Text0": "全面屏设计，人工智能系统",
+            "p2Text0": "899元<span>999元</span>",
+            "class" : "",
+            "imgUrl1" : "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/f193daba3989eadac5e13ae102b91582.jpg?thumb=1&w=250&h=250&f=webp&q=90",
+            "h3Text1" : "全面屏电视 55英寸E55X",
+            "p1Text1" : "潮流全面屏设计",
+            "p2Text1" : "2149元<span>2299元</span>"
+        },
+        {
+            "imgUrl0" : "/images/index/electric_3.webp",
+            "h3Text0" : "小米全面屏电视E55A",
+            "p1Text0": "全面屏设计，人工智能语音",
+            "p2Text0": "2199元<span>2299元</span>",
+            "class" : "",
+            "imgUrl1" : "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/9d8674cd21c486feff5328772ab9cf01.jpg?thumb=1&w=250&h=250&f=webp&q=90",
+            "h3Text1" : "小米电视4A 70英寸",
+            "p1Text1" : "大屏更享受",
+            "p2Text1" : "2999元<span>3999元</span>"
+        },
+        {
+            "imgUrl0" : "/images/index/electric_4.webp",
+            "h3Text0" : "米家空调",
+            "p1Text0": "出众静音，快速制冷热",
+            "p2Text0":  "1799元",
+            "class" : "",
+            "imgUrl1" : "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/8156dec11073b1f98db8e4b7598262a4.jpg?thumb=1&w=250&h=250&f=webp&q=90",
+            "h3Text1" : "小米电视4C 43英寸",
+            "p1Text1": "FHD全高清屏，钢琴烤漆",
+            "p2Text1":  "1299元<span>1399元</span>"
+        },
+        {
+            "imgUrl0" : "/images/index/electric_5.webp",
+            "h3Text0" : "米家互联网洗烘一体机 Pro 10kg",
+            "p1Text0": "智能洗烘，省心省力",
+            "p2Text0": "3299元",
+            "class" : "",
+            "imgUrl1" : "//cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/7e2127506fd2209f3115828404269d45.jpg?thumb=1&w=250&h=250",
+            "h3Text1" : "小米电视4S 75英寸",
+            "p1Text1" : "4K HDR，人工智能语音",
+            "p2Text1" : "4199元<span>5999元</span>"
+        },
+        {
+            "imgUrl0" : "/images/index/electric_6.webp",
+            "h3Text0" : "Redmi全自动波轮洗衣机1A 8kg",
+            "p1Text0": "一键操作，父母都爱用",
+            "p2Text0": "899",
+            "class" : "",
+            "imgUrl1" : "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/6a3d09cb5b895f8c3706f513552cd53d.jpg?thumb=1&w=250&h=250&f=webp&q=90",
+            "h3Text1" : "小米全面屏电视65英寸 E65C",
+            "p1Text1" : "震撼大屏，时尚全面屏",
+            "p2Text1" : "2799元<span>3099元</span>"
+        },
+        {
+            "imgUrl0" : "/images/index/electric_7.webp",
+            "h3Text0" : "Air 13.3 2019款",
+            "p1Text0": "新一代独立显卡",
+            "p2Text0": "5699元<span>5999元</span>",
+            "class" : "",
+            "imgUrl1" : "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/8b3fe3a07ef69fb4c959e39c768c7525.jpg?thumb=1&w=250&h=250&f=webp&q=90",
+            "h3Text1" : "小米全面屏电视E32C",
+            "p1Text1" : "全面屏设计，人工智能系统",
+            "p2Text1" : "899元<span>999元</span>"
+        },
+        {
+            "imgUrl0" : "/images/index/electric_8.webp",
+            "h3Text0" : "米家互联网烟灶套装（天然气）",
+            "p1Text0": "2298元",
+            "p2Text0": "",
+            "class" : " brick-item",
+            "imgUrl1" : "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/0e7eee530e4a103f2f5a0937a14bed53.jpg?thumb=1&w=125&h=125&f=webp&q=90",
+            "h3Text1" : "小米壁画电视 65英寸",
+            "p1Text1": "6999元",
+            "p2Text1": ""
+        }
+    ]
+}
