@@ -1,0 +1,320 @@
+/*=============================样式重置=============================*/
+/*----------------------第一步：清样式，清间距-----------------------*/
+body,h1,h2,h3,h4,h5,h6,a,p,ol,ul,li,dl,dt,dd,input{padding: 0; margin: 0; box-sizing: border-box;}
+ul,ol{list-style: none;}
+input{outline: none; border: 0; }
+img{display: block;}
+/*------------------------第二步：定义全局样式-----------------------*/
+/* body{font-size: 14px; color: #3e3e3e; font-family: "微软雅黑"; height: 2000px;} */
+body{font: 14px/1.5 Helvetica Neue,Helvetica,Arial,Microsoft Yahei,Hiragino Sans GB,Heiti SC,WenQuanYi Micro Hei,sans-serif;}
+/*------------------------第三步：定义超链接样式---------------------*/
+a{text-decoration: none; color: #999;}
+a:hover{color: #fff;}
+/*=============================公共样式=============================*/
+.w{width: 1226px; margin: 0 auto;}
+.l{float: left;}
+.r{float: right;}
+
+body{
+    background: #f9f9f9;
+}
+.big{
+    height:520px ;
+    width: 786px;
+    background: #fff;
+    margin: 50px auto 0;
+    padding: 0 34px 30px 34px;
+}
+.big .logo{
+    width: 49px;
+    height: 48px;
+    margin: 0 auto;
+}
+.big .logo img{
+    width: 49px;
+    height: 48px;
+}
+.big > h3{
+    margin-top: 30px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: normal;
+}
+.big .reg{
+    height: 308px;
+    display: block;
+}
+.big .reg .div{
+    height: 248px;
+    width: 332px;
+    padding:30px 227px;
+    color: #666;
+}
+.big .reg .div .guojia{
+    height: 40px;
+    line-height: 40px ;
+    padding-left: 14px ;
+    width: 318;
+    border: 1px solid #e8e8e8;
+    margin-top: 5px;
+    color: #444;
+    cursor: pointer;
+    position: relative;
+    outline: none;
+}
+.big .reg .div .guojia span.r{
+    height:40px ;
+    width: 40px;
+    border-left: 1px solid #e8e8e8;
+    text-align: center;
+}
+.big .reg .div .zushi{
+    height: 20px;
+    margin: 4px 0 15px 0;
+    color: #666;
+}
+.big .reg .div .guojia div.liebiao{
+    width: 332px;
+    height: 270px;
+    position: absolute;
+    background: #fff;
+    border: 1px solid #e8e8e8;
+    border-top: 0;
+    box-sizing: border-box;
+    top: 41px;
+    left: -1px;
+    overflow: auto;
+    display: none;
+    z-index: 10;
+}
+.big .reg .div .guojia div.liebiao p{
+    padding: 10px;
+    height: 54px;
+}
+.big .reg .div .guojia div.liebiao p input{
+    width: 274px;
+    height: 22px;
+    padding: 5px 10px;
+    box-sizing: content-box;
+    border: 1px solid #e8e8e8;
+    border-radius: 5px;
+}
+.big .reg .div .guojia div.liebiao h4{
+    height: 30px;
+    padding-left: 10px;
+    margin-bottom: 6px;
+    background: #fcdecc;
+    color: #ef5b00;
+    line-height: 30px;
+    font-weight: normal;
+    cursor: auto;
+}
+.big .reg .div .guojia div.liebiao ul li{
+    height: 40px;
+    line-height: 40px;
+    padding: 0 10px;
+    border-bottom: 1px solid #e8e8e8 ;
+}
+.big .reg .div .guojia div.liebiao ul li:hover{
+    background: #eee;
+}
+.big .reg .shouji {
+    height: 20px;
+    margin-bottom: 5px;
+    color: #333;
+}
+.big .reg .phonenumber{
+    height: 42px;
+    border: 1px solid #e8e8e8;
+    margin-bottom: 15px;
+    position: relative;
+    /* border-color: #ff6666; */
+}
+.big .reg .phonenumber .jia{
+    width: 54px;
+    height: 42px;
+    padding-left: 14px;
+    border-right: 1px solid #e8e8e8 ;
+    cursor: pointer;
+}
+.big .reg .phonenumber .jia span{
+    line-height: 42px;
+    color: #555;
+}
+.big .reg .phonenumber .jia span:nth-child(2){
+    margin-left: 5px;
+    color:#aaa ;
+    font-size: 10px;
+}
+.big .reg .phonenumber input{
+    height: 20px;
+    width: 240px;
+    margin:11px 10px ;
+    color: #555;
+}
+.big .reg .phonenumber .content{
+    margin-top:8px;
+    color: #f66;
+}
+.big .reg .phonenumber .content img{
+    display: inline-block;
+    height: 14px;
+    vertical-align: middle;
+    margin: -1px 5px 0 0;
+}
+.big .reg .phonenumber div.liebiao{
+    width: 332px;
+    height: 270px;
+    position: absolute;
+    background: #fff;
+    border: 1px solid #e8e8e8;
+    border-top: 0;
+    box-sizing: border-box;
+    top: 43px;
+    left: -1px;
+    overflow: auto;
+    display: none;
+}
+.big .reg .phonenumber div.liebiao p{
+    padding: 10px;
+    height: 62px;
+}
+.big .reg .phonenumber div.liebiao p input{
+    width: 274px;
+    height: 42px;
+    padding: 0px 10px;
+    box-sizing: content-box;
+    border: 1px solid #e8e8e8;
+    border-radius: 5px;
+    margin: 0;
+}
+.big .reg .phonenumber div.liebiao h4{
+    height: 30px;
+    padding-left: 10px;
+    margin-bottom: 6px;
+    background: #fcdecc;
+    color: #ef5b00;
+    line-height: 30px;
+    font-weight: normal;
+    cursor: auto;
+}
+.big .reg .phonenumber div.liebiao ul li{
+    height: 40px;
+    line-height: 40px;
+    padding: 0 10px;
+    border-bottom: 1px solid #e8e8e8 ;
+}
+.big .reg .phonenumber div.liebiao ul li:hover{
+    background: #eee;
+    cursor: pointer;
+}
+.big .reg .phonenumber div.liebiao ul li span{
+    float: right;
+    color: #9d9d9d;
+}
+.big .reg button{
+    height: 42px;
+    width: 330px;
+    margin-top: 15px;
+    background: #ff6700;
+    outline: none;
+    border: 1px solid rgba(186,186,186,.3);
+    cursor: pointer;
+    color: #fff;
+    border-radius: 3px;
+    font-size: 14px;
+    overflow: hidden;
+}
+.big .yuedu{
+    height: 40px;
+    line-height: 40px;
+    width: 260px;
+    padding: 10px 0;
+    margin: 0 auto;
+    margin-top: 40px;
+    color: #9d9d9d;
+    cursor: pointer;
+    display: block;
+}
+.big .yuedu a{
+    color: #333;
+    font-weight: bold;
+}
+.foot{
+    margin-top: 60px;
+}
+.foot ul{
+    text-align: center;
+}
+.foot ul li{
+    display: inline-block;
+}
+.foot ul li a {
+    color: #757575;
+    padding: 0 10px;
+    border-right: 2px solid #aaa;
+}
+.foot ul li:nth-child(4) a{
+    border: 0;
+}
+.foot p{
+    text-align: center;
+    height: 44px ;
+    padding: 10px;
+    color: #9d9d9d;
+}
+.foot p img{
+    display: inline-block;
+}
+
+/*====================注册页=============*/
+
+.big .zuce{
+    height: 248px;
+    width: 415px;
+    padding:30px 227px;
+    display: none;
+}
+.big .zuce h3{
+    font-size: 16px;
+    color: #666666;
+}
+.big .zuce h3 span{
+    color: #ff6700;
+}
+.big .zuce input{
+    outline: none;
+    border: 1px solid #e8e8e8;
+    width: 415px;
+    height: 53px;
+    margin-top: 18px;
+    font-size: 18px;
+    padding-left: 8px;
+    color: #9d9d9d;
+}
+.big .zuce p{
+    margin-top:12px ;
+}
+.big .zuce button{
+    height: 42px;
+    width: 415px;
+    margin-top: 15px;
+    background: #ff6700;
+    outline: none;
+    border: 1px solid rgba(186,186,186,.3);
+    cursor: pointer;
+    color: #fff;
+    border-radius: 3px;
+    font-size: 14px;
+    overflow: hidden;
+}
+.big .zuce div {
+    color: #ff6700 ;
+    margin-top: 5px;
+}
+.big .zuce div img{
+    display: inline-block;
+    vertical-align: middle;
+}

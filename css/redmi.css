@@ -1,0 +1,109 @@
+/*=============================样式重置=============================*/
+/*----------------------第一步：清样式，清间距-----------------------*/
+body,h1,h2,h3,h4,h5,h6,a,p,ol,ul,li,dl,dt,dd,input{padding: 0; margin: 0; box-sizing: border-box;}
+ul,ol{list-style: none;}
+input{outline: none; border: 0; }
+img{display: block;}
+/*------------------------第二步：定义全局样式-----------------------*/
+/* body{font-size: 14px; color: #3e3e3e; font-family: "微软雅黑"; height: 2000px;} */
+body{font: 14px/1.5 Helvetica Neue,Helvetica,Arial,Microsoft Yahei,Hiragino Sans GB,Heiti SC,WenQuanYi Micro Hei,sans-serif;}
+/*------------------------第三步：定义超链接样式---------------------*/
+a{text-decoration: none; color: #999;}
+a:hover{color: #fff;}
+/*=============================公共样式=============================*/
+.w{width: 1226px; margin: 0 auto;}
+.l{float: left;}
+.r{float: right;}
+
+
+/*===========header==========*/
+.header{
+    height: 800px;
+    background: url(../images/zjw/1.jpg) no-repeat ;
+    background-size:  2560px;
+    background-position: -350px 0 ;
+}
+.first{
+    height: 1900px;
+    background:#60d5bb;
+    padding-top: 15px;
+}
+.first .w dl{
+    width: 400px;
+    height: 460px;
+    background: #fff;
+    float: left;
+    margin-right: 13px;
+    margin-bottom: 15px;
+}
+.first .w dl dt{
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+.first .w dl dt .pic{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    height: 90px;
+    width: 90px;
+}
+.first .w dl img{
+    height: 266px;
+    width: 400px;
+    transition: all 1s;
+}
+.first .w dl:nth-child(3n){
+    margin-right: 0;
+}
+.first .w dl dd{
+    text-align: center;
+}
+.first .w dl dd p span{
+    color: #666;
+    font-size: 8px;
+}
+.first .w dl dd p span span{
+    font-size: 12px;
+    text-decoration: line-through;
+}
+.first .w dl dd h3{
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: normal;
+}
+.first .w dl dd p:nth-of-type(1){
+    margin-top: 5px;
+    color: #666666;
+    font-size: 12px;
+}
+.first .w dl dd p:nth-of-type(2){
+    color: #ea625b;
+    font-size: 17px;
+    margin-top: 10px;
+}
+.first .w dl dd p:nth-of-type(3) a{
+    display: inline-block;
+    margin-top: 10px;
+    height: 44px;
+    width: 140px;
+    line-height: 44px;
+    text-align: center;
+    background: #ea625b;
+    color: #fff;
+    font-size: 18px;
+}
+
+ .w dl dt img:nth-child(1):hover  {
+    transform: scale(1.05);
+}
+.biaoti img{
+   width: 100%;
+   height: 85px;
+}
+.a1{
+    height: 1430px;
+}
+.a2{
+    height: 955px;
+}
