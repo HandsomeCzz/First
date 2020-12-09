@@ -17,5 +17,20 @@
         return $.ajax('js/json/collocation.json');
     }
 
-    export{getElectric as getElectric, getAi as getAi , getCollocation as getCollocation}
+    function getBanner(){
+        //return $.ajax('js/json/collocation.json');
+        return [[$.ajax('js/json/banner_list1.json')],
+        [$.ajax('js/json/banner_list2.json')],
+        [$.ajax('js/json/banner_list3.json')],
+        [$.ajax('js/json/banner_list4.json')],
+        [$.ajax('js/json/banner_list5.json')],
+        [$.ajax('js/json/banner_list6.json')],
+        [$.ajax('js/json/banner_list7.json')],
+        [$.ajax('js/json/banner_list8.json')],
+        [$.ajax('js/json/banner_list9.json')],
+        [$.ajax('js/json/banner_list10.json')],
+        ]
+    }
+
+    export{getElectric as getElectric, getAi as getAi , getCollocation as getCollocation , getBanner as getBanner}
 

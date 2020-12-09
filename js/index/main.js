@@ -1,4 +1,4 @@
-import { getElectric , getAi , getCollocation} from '../server.js'
+import { getElectric , getAi , getCollocation , getBanner} from '../server.js'
 import search_menu from './search/search_menu.js';
 import banner_footer from './banner/banner.js';
 import lightning from './lightning/lightning.js';
@@ -6,6 +6,7 @@ import change from './change/change.js';
 import initelectric from './init/initElectric.js';
 import initAi from './init/initAi.js';
 import initCollocation from './init/initCollocation.js';
+import initBanner from './init/initBanner.js';
 
 // search下拉菜单
 search_menu();
@@ -38,6 +39,11 @@ getAi().then((res)=>{
 getCollocation().then((res)=>{
     initCollocation(res)
 })
+
+// getBanner().then((res)=>{
+//     console.log(res);
+//     // initBanner(res);
+// })
 
 window.onresize  = function(){
     // console.log($(document).width());

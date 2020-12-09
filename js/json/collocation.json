@@ -3,7 +3,7 @@
     "code" : 0,
     "collocation_list" : [
         {
-            "imgUrl0" : "../../../小米官网/images/index/collocation_1.webp",
+            "imgUrl0" : "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/5fc35cf0af915a9e60f5d4ea220521ab.jpg?thumb=1&w=200&h=200&f=webp&q=90",
             "h3Text0" : "小米真无线蓝牙耳机Air 2 Pro",
             "p1Text0" : "主动降噪/持久续航/无线充",
             "p2Text0" : "699元",
@@ -14,7 +14,7 @@
             "p2Text1" : "849元<span>999元</span>"
         },
         {
-            "imgUrl0" : "../../../小米官网/images/index/collocation_2.webp",
+            "imgUrl0" : "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/9eb0178e3bfeb7d170edd641fb4be4bc.jpg?thumb=1&w=200&h=200&f=webp&q=90",
             "h3Text0" : "小米智能门锁 E",
             "p1Text0": "告别钥匙，畅享便捷生活",
             "p2Text0": "999元",
@@ -25,7 +25,7 @@
             "p2Text1" : "2149元<span>2299元</span>"
         },
         {
-            "imgUrl0" : "../../../小米官网/images/index/collocation_3.webp",
+            "imgUrl0" : "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/ea8e42faebf7d76a4cb42b8930cf9e46.jpg?thumb=1&w=200&h=200&f=webp&q=90",
             "h3Text0" : "高速无线充电套装",
             "p1Text0": "快速无线闪充，Qi充电标准",
             "p2Text0": "149元",
@@ -36,7 +36,7 @@
             "p2Text1" : "2999元<span>3999元</span>"
         },
         {
-            "imgUrl0" : "../../../小米官网/images/index/collocation_4.webp",
+            "imgUrl0" : "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/eaf70e0e9905de6452f07b1f48fcc386.jpg?thumb=1&w=200&h=200&f=webp&q=90",
             "h3Text0" : "Redmi充电宝 10000mAh 标准版 白色",
             "p1Text0": "10000mAh大电量",
             "p2Text0":  "59元",
@@ -47,7 +47,7 @@
             "p2Text1":  "1299元<span>1399元</span>"
         },
         {
-            "imgUrl0" : "../../../小米官网/images/index/collocation_5.webp",
+            "imgUrl0" : "//i8.mifile.cn/v1/a1/5dd69c0a-8f4a-b42f-d840-6c5a47f2cd03!200x200.jpg",
             "h3Text0" : "Redmi充电宝 20000mAh 快充版",
             "p1Text0": "大容量，可上飞机",
             "p2Text0": "99元",
@@ -58,7 +58,7 @@
             "p2Text1" : "4199元<span>5999元</span>"
         },
         {
-            "imgUrl0" : "../../../小米官网/images/index/collocation_6.webp",
+            "imgUrl0" : "//cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/321610e787393c42e5cb2e5730a7681d.jpg?thumb=1&w=200&h=200",
             "h3Text0" : "小米插线板 5孔位",
             "p1Text0": "多重安全保护",
             "p2Text0": "39元",
@@ -69,7 +69,7 @@
             "p2Text1" : "2799元<span>3099元</span>"
         },
         {
-            "imgUrl0" : "../../../小米官网/images/index/collocation_7.webp",
+            "imgUrl0" : "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/9946e252a7c49662376c056ced004a20.jpg?thumb=1&w=200&h=200&f=webp&q=90",
             "h3Text0" : "小米小爱蓝牙音箱 随身版",
             "p1Text0": "好听，更好看",
             "p2Text0": "199元",
@@ -80,7 +80,7 @@
             "p2Text1" : "899元<span>999元</span>"
         },
         {
-            "imgUrl0" : "../../../小米官网/images/index/collocation_8.webp",
+            "imgUrl0" : "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/601d1ac94ca155a59a813bff1045e8b3.jpg?thumb=1&w=100&h=100&f=webp&q=90",
             "h3Text0" : "小米无线车充通用快充版",
             "p1Text0": "129元",
             "p2Text0": "",

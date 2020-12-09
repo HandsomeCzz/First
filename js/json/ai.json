@@ -3,7 +3,7 @@
     "code" : 0,
     "ai_list" : [
         {
-            "imgUrl0" : "../../../小米官网/images/index/ai_1.webp",
+            "imgUrl0" : "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/011dd8493ad62f3793dbb63d9fbd3bc0.jpg?thumb=1&w=200&h=200&f=webp&q=90",
             "h3Text0" : "小米「小爱老师」",
             "p1Text0" : "英语提分利器",
             "p2Text0" : "799元<span>999元</span>",
@@ -18,7 +18,7 @@
             "p2Text2" : "699元"
         },
         {
-            "imgUrl0" : "../../../小米官网/images/index/ai_2.webp",
+            "imgUrl0" : "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/f0914c60fa1ab807972541b4e2b1a4cd.jpg?thumb=1&w=200&h=200&f=webp&q=90",
             "h3Text0" : "小米智能门锁 E",
             "p1Text0": "告别钥匙，畅享便捷生活",
             "p2Text0": "999元",
@@ -33,7 +33,7 @@
             "p2Text2" : "3199元<span>3499元</span>"
         },
         {
-            "imgUrl0" : "../../../小米官网/images/index/ai_3.webp",
+            "imgUrl0" : "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/e7c6e79433c883e1a022ec21402c1679.jpg?thumb=1&w=200&h=200&f=webp&q=90",
             "h3Text0" : "小米小爱音箱 Play",
             "p1Text0": "听音乐、语音遥控家电",
             "p2Text0": "99元<span>169元</span>",
@@ -48,10 +48,10 @@
             "p2Text2" : "199元"
         },
         {
-            "imgUrl0" : "../../../小米官网/images/index/ai_4.webp",
-            "h3Text0" : "米家电饭煲4L",
-            "p1Text0": "890W 立体加热",
-            "p2Text0":  "299元",
+            "imgUrl0" : "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/44a30f0da2aacb66a0f896293ebc703f.jpg?thumb=1&w=200&h=200&f=webp&q=90",
+            "h3Text0" : "小爱音箱万能遥控版",
+            "p1Text0": "传统家电秒变智能",
+            "p2Text0":  "149元",
             "class" : "",
             "imgUrl1" : "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/8156dec11073b1f98db8e4b7598262a4.jpg?thumb=1&w=250&h=250&f=webp&q=90",
             "h3Text1" : "米家智能门锁 霸王锁体 碳素黑",
@@ -63,10 +63,10 @@
             "p2Text2" : "24.9元起"
         },
         {
-            "imgUrl0" : "../../../小米官网/images/index/ai_5.webp",
-            "h3Text0" : "米家智能窗帘",
-            "p1Text0": "窗帘开合随心控",
-            "p2Text0": "799元",
+            "imgUrl0" : "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/b42e49c6c0208f2de5a2f7a491a3af46.jpg?thumb=1&w=200&h=200&f=webp&q=90",
+            "h3Text0" : "米家电饭煲4L ",
+            "p1Text0": "890W 立体加热 ",
+            "p2Text0": "299元",
             "class" : "",
             "imgUrl1" : "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/fa7cdb455f106da904e8c3f6156abc06.jpg?thumb=1&w=250&h=250&f=webp&q=90",
             "h3Text1" : "米家智能门锁 霸王锁体 磨砂金",
@@ -78,10 +78,10 @@
             "p2Text2" : "199元"
         },
         {
-            "imgUrl0" : "../../../小米官网/images/index/ai_6.webp",
-            "h3Text0" : "Redmi全自动波轮洗衣机1A 8kg",
-            "p1Text0": "一键操作，父母都爱用",
-            "p2Text0": "779元<span>899元</span>",
+            "imgUrl0" : "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/3accd497afc0047cfbd40f442e3b17df.jpg?thumb=1&w=200&h=200&f=webp&q=90",
+            "h3Text0" : "米家智能窗帘",
+            "p1Text0": "窗帘开合随心控",
+            "p2Text0": "799元<span>899元</span>",
             "class" : "",
             "imgUrl1" : "//i8.mifile.cn/b2c-mimall-media/98c51f977ac5b590dbaf7b8445b30fa6!250x250.jpg",
             "h3Text1" : "小米全面屏电视65英寸 E65C",
@@ -93,7 +93,7 @@
             "p2Text2" : "2799元<span>2999元</span>"
         },
         {
-            "imgUrl0" : "../../../小米官网/images/index/ai_7.webp",
+            "imgUrl0" : "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/550177d2e54387521bce9e78cb2949dd.jpg?thumb=1&w=200&h=200&f=webp&q=90",
             "h3Text0" : "小米体制称2",
             "p1Text0": "轻松掌握身体脂肪率",
             "p2Text0": "99元",
@@ -108,7 +108,7 @@
             "p2Text2" : "499元"
         },
         {
-            "imgUrl0" : "../../../小米官网/images/index/ai_8.webp",
+            "imgUrl0" : "//cdn.cnbj0.fds.api.mi-img.com/b2c-miapp-a1/T1r_x_BgLT1RXrhCrK.jpg?thumb=1&w=100&h=100",
             "h3Text0" : "九号平衡车",
             "p1Text0" : "1999元",
             "p2Text0" : "",
