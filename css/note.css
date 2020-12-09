@@ -332,7 +332,7 @@ a:hover{color: #f60;}
     color:#fff;
     height: 330px;
     width: 300px;
-    opacity: 1;
+    opacity: 0;
 }
 .big3{
     height: 850px;
@@ -355,6 +355,7 @@ a:hover{color: #f60;}
 .big5 h2{
     height: 100px;
     margin-top: 100px;
+    opacity: 0;
    
 }
 .big5 img{
@@ -444,13 +445,16 @@ a:hover{color: #f60;}
     margin-top: 100px; 
     font-size: 22px;
     color: #fff;
+    opacity: 0;
 }
 .big6 p{
     width: 410px;
     display: inline-block;
-    margin-top: 72px;
+    margin-top: 32px;
     font-size: 12px;
     color: #534f4c;
+    
+
 }
 .big7{
     height: 720px;
@@ -461,9 +465,10 @@ a:hover{color: #f60;}
 }
 .big7 h2{
     height: 100px;
-    margin-top: 70px;
+    margin-top: 150px;
     color: #fff;
     margin-left: 250px;
+    opacity: .5;
 }
 .big7 p{
     margin-left: 250px;
@@ -499,9 +504,10 @@ a:hover{color: #f60;}
 }
 .big8 h3{
     display: inline-block;
-    margin-top: 72px;
+    margin-top: 142px;
     font-size: 22px;
     color: #fff;
+    opacity: 0;
 }
 .big8 p{
     display: inline-block;
@@ -534,7 +540,7 @@ a:hover{color: #f60;}
 }
 .big10 p{
     display: inline-block;
-
+    margin-top: 10px;
     color: #534f4c;
 
 }
@@ -542,6 +548,7 @@ a:hover{color: #f60;}
     margin-top: 72px;
     font-size: 22px;
     color: #fff;
+    opacity: 0.3;
 }
 .big10 ul li p{
     text-align: left;
@@ -579,12 +586,13 @@ a:hover{color: #f60;}
 .big11 p{
     display: inline-block;
     color: #534f4c;
-
+    margin-top: 10px;
 }
 .big11 h3{
-    margin-top: 72px;
+    margin-top: 102px;
     font-size: 22px;
     color: #fff;
+    opacity: 0;
 }
 .big12{
     height: 720px;
@@ -598,12 +606,14 @@ a:hover{color: #f60;}
 .big12 p{
     color: #534f4c;
     display: inline-block;
+    margin-top: 10px;
 
 }
 .big12 h3{
-    margin-top: 72px;
+    margin-top: 102px;
     font-size: 22px;
     color: #fff;
+    opacity: 0;
 }
 .big13{
     height: 300px;
@@ -625,8 +635,9 @@ a:hover{color: #f60;}
 }
 .big14 h2{
     height: 100px;
-    margin-top: 70px;
+    margin-top: 100px;
     color: #fff;
+    opacity: .2;
 
 }
 .big14 p{
@@ -700,8 +711,9 @@ a:hover{color: #f60;}
 }
 .big16 h2{
     height: 100px;
-    margin-top: 70px;
+    margin-top: 150px;
     color: #fff;
+    opacity: 0;
 }
 .big16 p{
     color: #7d7b7a;
@@ -866,15 +878,47 @@ a:hover{color: #f60;}
     height: 36px;
 }
 .big23{
-    
     height: 640px;
     position: relative;
+    
 }
 .big23 img{
     position: absolute; 
     width: 100%;
     height: 640px;
 }
+.z-in{
+    z-index: 1;
+}
+.big23 ul{
+    
+    position: absolute;
+    z-index: 2;
+    bottom: 30px;
+    left: 50%;
+    margin-left: -130px;
+}
+.big23 ul li{
+    margin-left: 20px;
+    color: #444;
+    text-align: center;
+    line-height: 20px;
+    width: 60px;
+    height: 20px;
+    background-color: rgba(126, 114, 114, 0.16);
+    border-radius: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
 .big24{
     height: 400px;
     text-align: center;
@@ -888,11 +932,12 @@ a:hover{color: #f60;}
     margin-top: 68px;
 }
 .big24 h2{
-    margin-top: 50px;
+    margin-top: 100px;
     line-height: 40px;
     height: 115px;
     font-size: 25px;
     color: #fff;
+    opacity: 0;
 }
 .big24 p{
     margin-top: 40px;
@@ -939,6 +984,7 @@ a:hover{color: #f60;}
     color: #808080;
 }
 .big25 h6{
+    text-align: center;
     font-size: 14px;
     color: #808080 ;
     margin-top: 100px;
@@ -956,23 +1002,27 @@ a:hover{color: #f60;}
     font-size: 25px;
     color: #fff;
     position: absolute;
-    margin-top: 150px;
+    margin-top: 200px;
     left: 540px;
+    opacity: 0;
 }
 .big27 h2{
     text-align: center;
     font-size: 25px;
     color: #fff;
     position: absolute;
-    margin-top: 50px;
+    margin-top: 100px;
     left: 595px;
+    opacity: 0;
+
 }
 .big28 h2{
     text-align: center;
     font-size: 25px;
     color: #fff;
     position: absolute;
-    margin-top: 50px;
+    margin-top: 100px;
+    opacity: 0;
     left: 595px;
 }
 
@@ -986,7 +1036,8 @@ a:hover{color: #f60;}
 }
 .big29 h2{
     font-size: 24px;
-    margin-top: 200px;
+    margin-top: 250px;
+    opacity: 0;
 }
 .big29 img{
     display: inline-block;
