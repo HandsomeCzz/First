@@ -6,6 +6,7 @@ import change from './change/change.js';
 import initelectric from './init/initElectric.js';
 import initAi from './init/initAi.js';
 import initCollocation from './init/initCollocation.js';
+import time from '../shoppingcar/time.js';
 
 // search下拉菜单
 search_menu();
@@ -15,6 +16,8 @@ lightning();
 
 // change
 change();
+
+time();
 
 banner_footer({
     elem : '.banner_footer',
@@ -58,11 +61,11 @@ window.onresize  = function(){
 var username = localStorage.getItem('username');
 if (username){
     $('.my').html(`
-        <div class='l'>
-            <a class="center" href="./html/login/login.html">${username}
-            </a>
+        <div class='l one'></div>
+        <div class='l two'>
             <ul>
-                <li>退出登陆</li>
+                <li><a class="center" href="./html/login/login.html">${username}</a></li>
+                <li class='exit'>退出登陆</li>
             </ul>
         </div>
         <span>|</span>
@@ -80,3 +83,29 @@ if (username){
     `)
 }
 
+$('.exit').on('mouseover',function(){
+    $(this).css({
+        background : '#f5f5f5',
+        color : '#f60'
+    })
+})
+$('.exit').on('mouseout',function(){
+    $(this).css({
+        background : '#fff',
+        color : '#b0b0b0'
+    })
+})
+$('.exit').on('click',function(){
+    localStorage.removeItem('username')
+    window.location = './index.html'
+})
+
+$('.my ul').on('mouseover',function(){
+    $(this).css({background : '#fff'}).find('.center').css({ color : '#f60'});
+    $(this).animate({height : 78},0);
+})
+
+$('.my ul').on('mouseout',function(){
+    $(this).css({background : ''}).find('.center').css({ color : '#b0b0b0'});
+    $(this).animate({height : 40},0);
+})

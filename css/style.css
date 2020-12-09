@@ -6,10 +6,10 @@ input{outline: none; border: 0; }
 img{display: block;}
 /*------------------------第二步：定义全局样式-----------------------*/
 /* body{font-size: 14px; color: #3e3e3e; font-family: "微软雅黑"; height: 2000px;} */
-body{font: 14px/1.5 Helvetica Neue,Helvetica,Arial,Microsoft Yahei,Hiragino Sans GB,Heiti SC,WenQuanYi Micro Hei,sans-serif; height: 4000px;}
+body{font: 12px/1.5 Helvetica Neue,Helvetica,Arial,Microsoft Yahei,Hiragino Sans GB,Heiti SC,WenQuanYi Micro Hei,sans-serif; height: 4000px;}
 /*------------------------第三步：定义超链接样式---------------------*/
 a{text-decoration: none; color: #999;}
-a:hover{color: #fff;}
+a:hover{color: #f60;}
 /*=============================公共样式=============================*/
 .w{width: 1226px; margin: 0 auto;}
 .l{float: left;}
@@ -78,7 +78,8 @@ li p:nth-of-type(2) span{
     color: #f60;
 }
 #nav .center{
-    position: relative;
+    /* position: absolute; */
+    display: block;
 }
 #nav .center ul{
     position: absolute;
@@ -87,31 +88,35 @@ li p:nth-of-type(2) span{
     width: 100%;
     z-index: 30;
 }
-#nav .my div{
-    padding: 0 5px;
+#nav .my{
     position: relative;
-    left: 0;
+}
+#nav .my .one{
+    width: 77px;
+    opacity: 0;
     height: 40px;
 }
-#nav .my div:hover{
-    background: #fff;
-    /* display: inline-block; */
-}
-#nav .my div:hover ul{
-    padding: 7px 0;
-    height: 38px;
-}
-#nav .my div:hover a{
-    color: #f60;
+#nav .my .two{
+    padding: 0 5px;
+    position: absolute;
+    left: 0;
+    height: 40px;
+    width: 77px;
+    /* overflow: hidden; */
 }
 #nav .my ul{
     width: 100%;
     position: absolute;
-    background: #fff;
-    /* padding: 7px 0; */
-    height: 0;
     overflow: hidden;
     transition: all .5s;
+    height: 40px;
+    z-index: 20;
+    left: -3px;
+}
+#nav .my ul li:nth-child(1){
+    height: 41px;
+    line-height: 40px;
+    margin-bottom: 5px;
 }
 #nav .my ul li{
     width: 100%;
@@ -120,7 +125,15 @@ li p:nth-of-type(2) span{
     line-height: 2;
     font-size: 12px;
     cursor: pointer;
+    padding: 0 5px;
 }
+/* #nav .my .two ul:hover{
+    background: #fff;
+    height: 78px;
+}
+#nav .my .two ul:hover a{
+    color: #f60;
+} */
 
     /* suspension */
 #suspension {
@@ -1717,7 +1730,56 @@ li p:nth-of-type(2) span{
 }
 
 
+/* ===========footer================= */
+footer{height: 579px;width: 100%;background: #f5f5f5;}
+#footer{height: 332px;width: 100%;background: white;}
+#footer section.w{height: 332px;}
+#footer section.w>ul{padding: 27px 0;border-bottom: 1px solid #e0e0e0;height: 25px; box-sizing: content-box;}
+#footer section.w>ul>li{width: 19.8%;height: 25px;text-align: center;line-height: 25px;border-right: 1px solid #e0e0e0;}
+#footer section.w ul li:nth-of-type(5){border: none;}
+#footer section.w ul li a{font-size: 16px;}
+#footer section.w ul li a span{font-size: 24px;vertical-align: -4px;}
+#footer section.w .lr{display: flex;width: 100%;height: 172px;padding: 40px 0;flex-direction: row;}
+#footer section.w .lr .left{flex: 4;border-right:1px solid #e0e0e0 ;}
+#footer section.w .lr .right{flex: 1;text-align: center;}
+#footer section.w .lr .right p{font-size: 22px;line-height: 1;color: #ff6700;margin-bottom: 5px;}
+#footer section.w .lr .right>a{display: inline-block;text-align: center;width: 118px;height: 28px;font-size: 12px;border: 1px solid #ff6700;background: white;color: #ff6700;line-height: 28px;transition: all .5s;}
+#footer section.w .lr .right>a:hover{background: #ff6700;color: white;}
+#footer section.w .lr .right>a:hover span{color: white;}
+#footer section.w .lr .right>a>span{color: #ff6700;font-size: 12px;transition: all .5s;}
+#footer section.w .lr .right>span{display: inline-block; font-size: 12px;color: #616161;margin-bottom: 5px;}
+#footer section.w .lr .right>div{margin-top: 10px;position: relative;}
+#footer section.w .lr .right>img{display: none;}
+#footer a:hover{color: #f60;}
 
+#footer section.w .lr .right>div a:hover{color: #ff6700;}
+#footer section.w .lr .right>div a:nth-of-type(1){display: inline-block;background: url(https://cdn.cnbj1.fds.api.mi-img.com/staticsfile/global/wb.png) 50% 0 no-repeat;
+    background-size: cover;width: 24px;height: 24px;vertical-align: middle;
+    margin-left: 6px;margin-top: -3px;}
+#footer section.w .lr .right>div a:nth-of-type(2){background: url(https://cdn.cnbj1.fds.api.mi-img.com/staticsfile/global/wx.png) 50% 0 no-repeat;background-size: cover;width: 24px;height: 24px;display: inline-block;vertical-align: middle;margin-left: 6px;margin-top: -3px;}
+#footer section.w .lr .left ul {display: flex;flex-direction: row;}
+#footer section.w .lr .left ul li.list{flex: 1;width: 160px;height: 116px;}
+#footer section.w .lr .left ul li.list>h3{font-size: 14px;font-weight: normal;color: #424242;height: 17px;margin-bottom: 26px;margin-top: 1px;}
+#footer section.w .lr .left ul li.list a{font-size: 12px;margin-top: 18px;color: #757575; display: block;}
+#footer section.w .lr .left ul li.list a:hover{color: #ff6700;}
+.footer_bottom{height: 187px;padding: 30px 0;width: 100%;background: #fafafa;}
+.footer_bottom_center{height: 138px;width: 100%;}
+.footer_bottom_center .w{height: 100%;position: relative;}
+.footer_bottom_center .w #bo_logo{width: 57px;height: 57px;margin-right: 10px;background: url(//s02.mifile.cn/assets/static/image/logo-footer.png) no-repeat 50% 50%;position: absolute;top: 0;left: 0;}
+.footer_bottom_center .w #bo_logo p.sites{color: #b0b0b0;padding-left: 67px;margin: 0;line-height: 18px;width: 1159px;height: 19px;}
+.footer_bottom_center .w #bo_logo p.next{padding-left: 67px;line-height: 18px;width: 1159px;height: 72px;color:#b0b0b0}
+.footer_bottom_center .w #bo_logo p.next a{color:#b0b0b0}
+.footer_bottom_center .w #bo_logo .info-links{padding-left: 67px;width: 1159px;height: 28px;margin: 4px 0 15px;}
+.footer_bottom_center .w #bo_logo .info-links a{display: inline-block;}
+.footer_bottom_center .w #bo_logo .info-links a img{width: 83px;height: 28px;margin-top: 16px;}
+.footer_bottom .slogan{margin-top: 30px;height: 19px;background: url(https://cdn.cnbj1.fds.api.mi-img.com/staticsfile/global/slogan2020.png) no-repeat center 0;}
+.footer_bottom_center .w #bo_logo .info-links a img.img1{width: 106px;height: 40px;}
+.footer_bottom_center .w #bo_logo .info-links a img.img2{width: 106px;height: 40px;}
+.footer_bottom_center .w #bo_logo .info-links a:nth-of-type(4){position: relative;}
+.footer_bottom_center .w #bo_logo .info-links a img.img1{position: absolute;top: 0;left: 90px;margin-top: 4px;z-index: 2;}
+.footer_bottom_center .w #bo_logo .info-links a img.img2{position: absolute;top: 0;left: 90px;margin-top: 4px;}
+#footer_bottom a:hover{color: #f60;}
+#footer_bottom{font-size: 12px;}
 
 
 
