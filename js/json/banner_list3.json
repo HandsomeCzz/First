@@ -1,0 +1,78 @@
+{
+    "type" : "collocation",
+    "code" : 0,
+    "collocation_list" : [
+        [
+           {
+                "imgUrl" :"//cdn.cnbj1.fds.api.mi-img.com/mi-mall/694e4b422f319e2c8cdd8fb1760f911c.png?thumb=1&w=40&h=40&f=webp&q=90",
+                "spanText" : "Redmi G 游戏本",
+                "id":"10000254"
+            },
+            {
+                "imgUrl" :"//cdn.cnbj1.fds.api.mi-img.com/mi-mall/ea840f3f79798c9a29d9921b9edf50ac.png?thumb=1&w=40&h=40&f=webp&q=90",
+                "spanText" : "RedmiBook Air 13",
+                "id":"10000253"
+            },
+            {
+                "imgUrl" :"//cdn.cnbj1.fds.api.mi-img.com/mi-mall/dae66d0f978b04b539aef092aee50f2f.png?thumb=1&w=40&h=40&f=webp&q=90",
+                "spanText" : "RedmiBook 16",
+                "id":"10000242"
+            },
+            {
+                "imgUrl" :"//cdn.cnbj1.fds.api.mi-img.com/mi-mall/e00ef74cd7162b290f0395c09d220719.png?thumb=1&w=40&h=40&f=webp&q=90",
+                "spanText" : "RedmiBook 14",
+                "id":"10000241"
+            },
+            {
+                "imgUrl" :"//cdn.cnbj1.fds.api.mi-img.com/mi-mall/4f45cdc4f94f1f1651095dedb154c2e4.png?thumb=1&w=40&h=40&f=webp&q=90",
+                "spanText" : "小米笔记本Pro 15.6",
+                "id":"10000237"
+            },
+            {
+                "imgUrl" :"//cdn.cnbj1.fds.api.mi-img.com/mi-mall/aee86bcd8bf491eb78ae234d2e188a66.jpg?thumb=1&w=40&h=40&f=webp&q=90",
+                "spanText" : "RedmiBook 13",
+                "id":"10000205"
+            }
+            
+            
+        ],
+        [
+            {
+                "imgUrl" :"//cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/1f95bb7c9206951e3d870cb5581b8329.png?thumb=1&w=40&h=40",
+                "spanText" : "小米笔记本 Air 13.3",
+                "id":"10000142"
+            },
+            {
+                "imgUrl" :"//cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/eaab0db21859e0e58cae1fb807907905.jpg?thumb=1&w=40&h=40",
+                "spanText" : "小米笔记本 Air 12.5",
+                "id":"10000145"
+            },
+            {
+                "imgUrl" :"//cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/a66c24ee8ae2efea3ae92ec455a27352.jpg?thumb=1&w=40&h=40",
+                "spanText" : "小米游戏本",
+                "id":"10000178"
+            },
+            {
+                "imgUrl" :"//cdn.cnbj1.fds.api.mi-img.com/mi-mall/b32e4db4b53b0c56c6040f094e96d945.png?thumb=1&w=40&h=40&f=webp&q=90",
+                "spanText" : "小米显示器34英寸",
+                "id":"11024"
+            },
+            {
+                "imgUrl" :"//cdn.cnbj1.fds.api.mi-img.com/mi-mall/63c3bb39be1ade99a6ebe02e39c4288f.png?thumb=1&w=40&h=40&f=webp&q=90",
+                "spanText" : "小米显示器27英寸",
+                "id":"12290"
+            },
+            {
+                "imgUrl" :"//cdn.cnbj1.fds.api.mi-img.com/mi-mall/4500e99fb7e7b8630d5d6741de3fb846.png?thumb=1&w=40&h=40&f=webp&q=90",
+                "spanText" : "Redmi显示器23.8英寸",
+                "id":"12165"
+            }
+            
+              
+          ]
+         
+        
+        
+    ]
+    
+}

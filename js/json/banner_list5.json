@@ -1,0 +1,75 @@
+{
+    "type" : "collocation",
+    "code" : 0,
+    "collocation_list" : [
+       
+        [
+            
+             {
+                 "imgUrl" :"//cdn.cnbj1.fds.api.mi-img.com/mi-mall/69bd883c1fc06ce41ff0fa1423b77e4e.png?thumb=1&w=40&h=40&f=webp&q=90",
+                 "spanText" : "Redmi 手表",
+                 "id":"13160"
+             },
+             {
+                "imgUrl" :"//cdn.cnbj1.fds.api.mi-img.com/mi-mall/8e8c85f251ed8b5cd54651c4be13bc68.png?thumb=1&w=40&h=40&f=webp&q=90",
+                "spanText" : "手环5NFC",
+                "id":"12251"
+            },
+            {
+                "imgUrl" :"//cdn.cnbj1.fds.api.mi-img.com/mi-mall/18f75b53afbe8ce2e858cb5622d60613.png?thumb=1&w=40&h=40&f=webp&q=90",
+                "spanText" : "手环5",
+                "id":"12252"
+            }
+            
+            
+            
+            
+            
+             
+             
+         ],
+         [
+            
+            {
+                "imgUrl" :"//cdn.cnbj1.fds.api.mi-img.com/mi-mall/749c779fd3789ba94033da8aaa547dcd.png?thumb=1&w=40&h=40&f=webp&q=90",
+                "spanText" : "自行车",
+                "id":"11368"
+            },
+            {
+               "imgUrl" :"//cdn.cnbj1.fds.api.mi-img.com/mi-mall/787c807176455f9ae40146af11e98b1e.jpg?thumb=1&w=40&h=40&f=webp&q=90",
+               "spanText" : "车载充电器",
+               "id":"5942"
+           }
+           
+           
+           
+           
+           
+            
+            
+        ],
+        [
+            
+            {
+                "imgUrl" :"//cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/efd04d4a90822e7e2f04a365083f2607.jpg?thumb=1&w=40&h=40",
+                "spanText" : "无线车充",
+                "id":"9357"
+            },
+            {
+               "imgUrl" :"//cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/8b398bad185dddb5397f2c0d9a3f6271.jpg?thumb=1&w=40&h=40",
+               "spanText" : "充气宝",
+               "id":"9613"
+           }
+           
+           
+           
+            
+            
+        ]
+         
+        
+        
+        
+    ]
+    
+}

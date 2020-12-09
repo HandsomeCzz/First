@@ -1,0 +1,50 @@
+{
+    "type" : "collocation",
+    "code" : 0,
+    "collocation_list" : [
+       
+        [
+            
+             {
+                 "imgUrl" :"//cdn.cnbj1.fds.api.mi-img.com/mi-mall/f7dcbb8c268574041ce0b4b98e591cf1.jpg?thumb=1&w=40&h=40&f=webp&q=90",
+                 "spanText" : "微波炉",
+                 "id":"10330"
+             },
+             {
+                 "imgUrl" :"//cdn.cnbj1.fds.api.mi-img.com/mi-mall/f7f39b7ac49227fc59c3f2b2105d25d6.jpg?thumb=1&w=40&h=40&f=webp&q=90",
+                 "spanText" : "电烤箱",
+                 "id":"9866"
+             }
+            
+            
+             
+             
+         ],
+         [
+            {
+                 "imgUrl" :"//cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/c12fd1da9fed662842d6f5c57d7737c9.png?thumb=1&w=40&h=40",
+                 "spanText" : "投影仪",
+                 "id":"9132"
+             }
+             
+             
+         ],
+         [
+            {
+                 "imgUrl" :"//cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/ba8d2a2d383f612575d323ce159bdce3.jpg?thumb=1&w=40&h=40",
+                 "spanText" : "电压力锅",
+                 "id":"9270"
+             },
+             {
+                 "imgUrl" :"//cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/b7de8a5bc64975df73f5fde5507fc8d1.jpg?thumb=1&w=40&h=40",
+                 "spanText" : "电煮壶",
+                 "id":"9529"
+             }
+        ]
+         
+        
+        
+        
+    ]
+    
+}

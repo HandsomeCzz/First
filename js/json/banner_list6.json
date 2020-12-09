@@ -1,0 +1,40 @@
+{
+    "type" : "collocation",
+    "code" : 0,
+    "collocation_list" : [
+       
+        [
+            
+             
+             {
+                "imgUrl" :"//cdn.cnbj1.fds.api.mi-img.com/mi-mall/b1c8b0308b1591ab93b7fe0937a52427.png?thumb=1&w=40&h=40&f=webp&q=90",
+                "spanText" : "喷墨打印机",
+                "id":"10780"
+            },
+            {
+                "imgUrl" :"//cdn.cnbj1.fds.api.mi-img.com/mi-mall/5a18e471294cf49b6937ae90fac6d583.png?thumb=1&w=40&h=40&f=webp&q=90",
+                "spanText" : "喷墨打印机墨水",
+                "id":"10779"
+            }
+            
+             
+         ],
+         [
+            
+            {
+                "imgUrl" :"//cdn.cnbj1.fds.api.mi-img.com/mi-mall/7646993f6c382fb32ebd9bfda8ba6158.png?thumb=1&w=40&h=40&f=webp&q=90",
+                "spanText" : "云服务空间年卡",
+                "id":"10000197"
+            },
+            {
+                "imgUrl" :"//cdn.cnbj1.fds.api.mi-img.com/mi-mall/7646993f6c382fb32ebd9bfda8ba6158.png?thumb=1&w=40&h=40&f=webp&q=90",
+                "spanText" : "云服务空间月卡",
+                "id":"8262"
+            }
+         ]
+        
+        
+        
+    ]
+    
+}

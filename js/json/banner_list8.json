@@ -1,0 +1,68 @@
+{
+    "type" : "collocation",
+    "code" : 0,
+    "collocation_list" : [
+       
+        [
+            
+             
+             {
+                "imgUrl" :"//cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/da43c3dd6b171ee267f1fd1ec01b9208.jpg?thumb=1&w=40&h=40",
+                "spanText" : "洗手机",
+                "id":"8881"
+            },
+            {
+                "imgUrl" :"//cdn.cnbj1.fds.api.mi-img.com/mi-mall/96b5d738ce5926e3a6969ad68fa1521d.jpg?thumb=1&w=40&h=40&f=webp&q=90",
+                "spanText" : "修剪器",
+                "id":"10974"
+            },
+            {
+                "imgUrl" :"//cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/bba7ce79f4d61939c69b7a26bf507bae.jpg?thumb=1&w=40&h=40",
+                "spanText" : "吹风机",
+                "id":"9104"
+            } 
+         ],
+         [
+            
+             
+            {
+               "imgUrl" :"//cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/12235daeb49fd45e709e68c7dacd3336.jpg?thumb=1&w=40&h=40",
+               "spanText" : "婴儿推车",
+               "id":"9029"
+           },
+           {
+               "imgUrl" :"//cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/d55c8943ceac7cd5ac7d8aa052f69b93.jpg?thumb=1&w=40&h=40",
+               "spanText" : "儿童书包",
+               "id":"9186"
+           },
+           {
+               "imgUrl" :"//cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/17d625c8b5466b9527e9c06c71601939.jpg?thumb=1&w=40&h=40",
+               "spanText" : "婴儿理发器",
+               "id":"9315"
+           },
+           {
+               "imgUrl" :"//cdn.cnbj1.fds.api.mi-img.com/mi-mall/4bf92a8a492f692a81794f52fefd1a29.png?thumb=1&w=40&h=40&f=webp&q=90",
+               "spanText" : "健身车",
+               "id":"10878"
+           },
+           {
+               "imgUrl" :"//cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/fb1fee7e2f2963baae34d3611a2b7e9f.jpg?thumb=1&w=40&h=40",
+               "spanText" : "走步机",
+               "id":"9662"
+           },
+           {
+               "imgUrl" :"//cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/ccdce424f41806f775693748058fa2ca.jpg?thumb=1&w=40&h=40",
+               "spanText" : "点读笔",
+               "id":"9834"
+           }
+          
+           
+            
+        ]
+       
+        
+        
+        
+    ]
+    
+}

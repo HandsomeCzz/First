@@ -1,0 +1,79 @@
+{
+    "type" : "collocation",
+    "code" : 0,
+    "collocation_list" : [
+       
+        [
+            
+             
+             {
+                "imgUrl" :"//cdn.cnbj1.fds.api.mi-img.com/mi-mall/71d2ba249ae5d3f2d4517ddf9c0f881a.png?thumb=1&w=40&h=40&f=webp&q=90",
+                "spanText" : "小爱音箱 Art 电池版",
+                "id":"13032"
+            },
+            {
+                "imgUrl" :"//cdn.cnbj1.fds.api.mi-img.com/mi-mall/146ad5dbbe9721c031aa168d4bf580ec.png?thumb=1&w=40&h=40&f=webp&q=90",
+                "spanText" : "小爱触屏音箱Pro 8",
+                "id":"11376"
+            },
+            {
+                "imgUrl" :"//cdn.cnbj1.fds.api.mi-img.com/mi-mall/7628d4253b1c1fccb5606095d0c5bbe3.png?thumb=1&w=40&h=40&f=webp&q=90",
+                "spanText" : "Redmi小爱触屏音箱 8",
+                "id":"11810"
+            },
+            {
+                "imgUrl" :"//cdn.cnbj1.fds.api.mi-img.com/mi-mall/360215a1e32317abb912d48c3e80dd20.png?thumb=1&w=40&h=40&f=webp&q=90",
+                "spanText" : "小爱音箱 Pro ",
+                "id":"10745"
+            },
+            {
+                "imgUrl" :"//cdn.cnbj1.fds.api.mi-img.com/mi-mall/374ce749560e0e74a792b6222048a472.png?thumb=1&w=40&h=40&f=webp&q=90",
+                "spanText" : "小米小爱音箱",
+                "id":"10744"
+            },
+            {
+                "imgUrl" :"//cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/abe665fafbef94eb3626ae8baf1de97e.jpg?thumb=1&w=40&h=40",
+                "spanText" : "小米小爱触屏音箱",
+                "id":"9334"
+            }
+            
+            
+           
+         ],
+         [
+            
+             
+            {
+               "imgUrl" :"//cdn.cnbj1.fds.api.mi-img.com/mi-mall/dacef871b6af373b0212e28b028890b8.png?thumb=1&w=40&h=40&f=webp&q=90",
+               "spanText" : "Redmi音箱",
+               "id":"11369"
+           },
+           {
+               "imgUrl" :"//cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/3d5963e212402fa5ebd2e71dd10c426c.jpg?thumb=1&w=40&h=40",
+               "spanText" : "小米小爱音箱 Play",
+               "id":"10015"
+           }
+           
+           
+           
+          
+        ],
+        [
+            {
+                "imgUrl" :"//cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/db89d422ef877cf7290616fef515e413.jpg?thumb=1&w=40&h=40",
+                "spanText" : "小米AI音箱",
+                "id":"6334"
+            },
+            {
+                "imgUrl" :"//cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/4df2fa022495e79f890a943a9d7e70a5.jpg?thumb=1&w=40&h=40",
+                "spanText" : "小米小爱音箱HD",
+                "id":"9151"
+            }
+        ]
+       
+        
+        
+        
+    ]
+    
+}
