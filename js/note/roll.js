@@ -11,7 +11,7 @@
             return factory(window);
           });
         }
-      }catch(e){console.log(e);}
+      }catch(e){/* console.log(e); */}
     }
   })(function (root) {
     var Roll = function (options){
@@ -204,7 +204,7 @@
     Roll.prototype.done = function (elem, context){
       if(!elem || !elem.nodeName){return;}
       if(!(this instanceof Roll) && !(context instanceof Roll)){
-        console.log('检测到done方法内的this不是Roll实例！done(elem, context)方法需要context参数，context参数必须是Roll实例');
+       // console.log('检测到done方法内的this不是Roll实例！done(elem, context)方法需要context参数，context参数必须是Roll实例');
         return;
       }else if(!(context instanceof Roll) && (this instanceof Roll)){
         context = this;
@@ -219,7 +219,7 @@
         // 移除Roll对象，以免占用内存
         rollEles.splice(index, 1);
       }
-      console.log('完成操作')
+      //console.log('完成操作')
       elem._done = true;
       elem.setAttribute('data-done', 'true');
       elem = null;

@@ -886,17 +886,17 @@ a:hover{color: #f60;}
     position: absolute; 
     width: 100%;
     height: 640px;
+    min-width: 1423px;
 }
 .z-in{
     z-index: 1;
 }
 .big23 ul{
-    
+    width: 260px;
     position: absolute;
     z-index: 2;
     bottom: 30px;
-    left: 50%;
-    margin-left: -130px;
+    margin-left: 580px;
 }
 .big23 ul li{
     margin-left: 20px;

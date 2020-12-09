@@ -3,7 +3,7 @@
 import { } from '../jquery.js';
 import { } from './roll.js';
 window.onload = setTimeout(function () {
-    window.scrollTo(0, 130);  //修改baidu500为指zhi定dao高zhuan度shu
+    window.scrollTo(0, 130);  //修改130为指zhi定dao高zhuan度shu
 }, 50);
 
 function off(n) {
@@ -31,14 +31,13 @@ var roll = new Roll({
 
   function gan (elem){
     roll.push(document.querySelector(elem), function (context, done){
-              console.log('图片1出现在视口，可以执行操作了！');
+              //console.log('图片1出现在视口，可以执行操作了！');
               $(elem).animate({
                 opacity: 1,
                 marginTop: $(elem).css('marginTop').replace('px', '') - 50
             }, 2000)
               done(this, context);
           });
-
   }
   gan('.big2 p')
   gan('.big5 h2')
