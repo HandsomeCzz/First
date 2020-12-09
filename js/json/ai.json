@@ -3,7 +3,7 @@
     "code" : 0,
     "ai_list" : [
         {
-            "imgUrl0" : "/images/index/ai_1.webp",
+            "imgUrl0" : "../../../小米官网/images/index/ai_1.webp",
             "h3Text0" : "小米「小爱老师」",
             "p1Text0" : "英语提分利器",
             "p2Text0" : "799元<span>999元</span>",
@@ -18,7 +18,7 @@
             "p2Text2" : "699元"
         },
         {
-            "imgUrl0" : "/images/index/ai_2.webp",
+            "imgUrl0" : "../../../小米官网/images/index/ai_2.webp",
             "h3Text0" : "小米智能门锁 E",
             "p1Text0": "告别钥匙，畅享便捷生活",
             "p2Text0": "999元",
@@ -33,7 +33,7 @@
             "p2Text2" : "3199元<span>3499元</span>"
         },
         {
-            "imgUrl0" : "/images/index/ai_3.webp",
+            "imgUrl0" : "../../../小米官网/images/index/ai_3.webp",
             "h3Text0" : "小米小爱音箱 Play",
             "p1Text0": "听音乐、语音遥控家电",
             "p2Text0": "99元<span>169元</span>",
@@ -48,7 +48,7 @@
             "p2Text2" : "199元"
         },
         {
-            "imgUrl0" : "/images/index/ai_4.webp",
+            "imgUrl0" : "../../../小米官网/images/index/ai_4.webp",
             "h3Text0" : "米家电饭煲4L",
             "p1Text0": "890W 立体加热",
             "p2Text0":  "299元",
@@ -63,7 +63,7 @@
             "p2Text2" : "24.9元起"
         },
         {
-            "imgUrl0" : "/images/index/ai_5.webp",
+            "imgUrl0" : "../../../小米官网/images/index/ai_5.webp",
             "h3Text0" : "米家智能窗帘",
             "p1Text0": "窗帘开合随心控",
             "p2Text0": "799元",
@@ -78,7 +78,7 @@
             "p2Text2" : "199元"
         },
         {
-            "imgUrl0" : "/images/index/ai_6.webp",
+            "imgUrl0" : "../../../小米官网/images/index/ai_6.webp",
             "h3Text0" : "Redmi全自动波轮洗衣机1A 8kg",
             "p1Text0": "一键操作，父母都爱用",
             "p2Text0": "779元<span>899元</span>",
@@ -93,7 +93,7 @@
             "p2Text2" : "2799元<span>2999元</span>"
         },
         {
-            "imgUrl0" : "/images/index/ai_7.webp",
+            "imgUrl0" : "../../../小米官网/images/index/ai_7.webp",
             "h3Text0" : "小米体制称2",
             "p1Text0": "轻松掌握身体脂肪率",
             "p2Text0": "99元",
@@ -108,7 +108,7 @@
             "p2Text2" : "499元"
         },
         {
-            "imgUrl0" : "/images/index/ai_8.webp",
+            "imgUrl0" : "../../../小米官网/images/index/ai_8.webp",
             "h3Text0" : "九号平衡车",
             "p1Text0" : "1999元",
             "p2Text0" : "",

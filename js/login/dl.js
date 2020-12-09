@@ -104,8 +104,10 @@ function aj(){
         'password':$('input').eq(1).val()},
     type:'post',
     success:function index(data){
-        if (data==1){
-             window.location.replace('../../index.html')
+        data = JSON.parse(data)
+        if (data.code == 1){
+            localStorage.setItem('username', data.list[0].id);
+            window.location.replace('../../index.html');
         }
         else {
             var el = $('<p class="el">用户名或密码不正确</p>');

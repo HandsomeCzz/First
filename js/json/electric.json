@@ -3,7 +3,7 @@
     "code" : 0,
     "electric_list" : [
         {
-            "imgUrl0" : "/images/index/electric_1.webp",
+            "imgUrl0" : "../../../小米官网/images/index/electric_1.webp",
             "h3Text0" : "Redmi 红米电视 70英寸",
             "p1Text0" : "70英寸震撼巨屏，4K画质，细腻如真",
             "p2Text0" : "3299元<span>3799元</span>",
@@ -14,7 +14,7 @@
             "p2Text1" : "849元<span>999元</span>"
         },
         {
-            "imgUrl0" : "/images/index/electric_2.webp",
+            "imgUrl0" : "../../../小米官网/images/index/electric_2.webp",
             "h3Text0" : "小米全面屏电视E32C",
             "p1Text0": "全面屏设计，人工智能系统",
             "p2Text0": "899元<span>999元</span>",
@@ -25,7 +25,7 @@
             "p2Text1" : "2149元<span>2299元</span>"
         },
         {
-            "imgUrl0" : "/images/index/electric_3.webp",
+            "imgUrl0" : "../../../小米官网/images/index/electric_3.webp",
             "h3Text0" : "小米全面屏电视E55A",
             "p1Text0": "全面屏设计，人工智能语音",
             "p2Text0": "2199元<span>2299元</span>",
@@ -36,7 +36,7 @@
             "p2Text1" : "2999元<span>3999元</span>"
         },
         {
-            "imgUrl0" : "/images/index/electric_4.webp",
+            "imgUrl0" : "../../../小米官网/images/index/electric_4.webp",
             "h3Text0" : "米家空调",
             "p1Text0": "出众静音，快速制冷热",
             "p2Text0":  "1799元",
@@ -47,7 +47,7 @@
             "p2Text1":  "1299元<span>1399元</span>"
         },
         {
-            "imgUrl0" : "/images/index/electric_5.webp",
+            "imgUrl0" : "../../../小米官网/images/index/electric_5.webp",
             "h3Text0" : "米家互联网洗烘一体机 Pro 10kg",
             "p1Text0": "智能洗烘，省心省力",
             "p2Text0": "3299元",
@@ -58,7 +58,7 @@
             "p2Text1" : "4199元<span>5999元</span>"
         },
         {
-            "imgUrl0" : "/images/index/electric_6.webp",
+            "imgUrl0" : "../../../小米官网/images/index/electric_6.webp",
             "h3Text0" : "Redmi全自动波轮洗衣机1A 8kg",
             "p1Text0": "一键操作，父母都爱用",
             "p2Text0": "899",
@@ -69,7 +69,7 @@
             "p2Text1" : "2799元<span>3099元</span>"
         },
         {
-            "imgUrl0" : "/images/index/electric_7.webp",
+            "imgUrl0" : "../../../小米官网/images/index/electric_7.webp",
             "h3Text0" : "Air 13.3 2019款",
             "p1Text0": "新一代独立显卡",
             "p2Text0": "5699元<span>5999元</span>",
@@ -80,7 +80,7 @@
             "p2Text1" : "899元<span>999元</span>"
         },
         {
-            "imgUrl0" : "/images/index/electric_8.webp",
+            "imgUrl0" : "../../../小米官网/images/index/electric_8.webp",
             "h3Text0" : "米家互联网烟灶套装（天然气）",
             "p1Text0": "2298元",
             "p2Text0": "",

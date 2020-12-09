@@ -5,7 +5,6 @@ function initelectric(res) {
     var p1Text = 'p1Text';
     var p2Text = 'p2Text';
     var str = '';
-    console.log(res);
     for (var i = 0; i < $('#electric .row .r ul').length; i++) {
         url += i;
         p2Text += i;

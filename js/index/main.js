@@ -21,7 +21,7 @@ banner_footer({
     current : 0
 })
 
-$('a').attr('target','black')
+$('a').attr('target','_black')
 
 getElectric().then((res)=>{
 
@@ -38,3 +38,45 @@ getAi().then((res)=>{
 getCollocation().then((res)=>{
     initCollocation(res)
 })
+
+window.onresize  = function(){
+    // console.log($(document).width());
+    // console.log($('#lightning').width());
+    // console.log( $('#lightning').offset().left);
+    console.log();
+
+    if ($(document).width() <= ($('#lightning').width() + $('#lightning').offset().left) + (80 + 27)){
+        $('#suspension').css('display','none')
+        $('#suspensionMin').css('display','block')
+    } else {
+        $('#suspension').css('display','block')
+        $('#suspensionMin').css('display','none')
+    }
+}
+
+
+var username = localStorage.getItem('username');
+if (username){
+    $('.my').html(`
+        <div class='l'>
+            <a class="center" href="./html/login/login.html">${username}
+            </a>
+            <ul>
+                <li>退出登陆</li>
+            </ul>
+        </div>
+        <span>|</span>
+        <a href="#">消息通知</a>
+        <span>|</span>
+        <a href="./html/reg.html">我的订单</a>
+    `)
+} else {
+    $('.my').html(`
+        <a href="./html/login/login.html">登陆</a>
+        <span>|</span>
+        <a href="./html/reg.html">注册</a>
+        <span>|</span>
+        <a href="#">消息通知</a>
+    `)
+}
+
