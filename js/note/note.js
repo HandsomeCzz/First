@@ -2,9 +2,12 @@
 
 import { } from '../jquery.js';
 import { } from './roll.js';
+import shoppingcar from '../shoppingcar/time.js';
 window.onload = setTimeout(function () {
     window.scrollTo(0, 130);  //修改130为指zhi定dao高zhuan度shu
 }, 50);
+
+shoppingcar()
 
 function off(n) {
     if (window.onscroll = $(n)) {
