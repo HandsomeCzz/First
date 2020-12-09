@@ -1,0 +1,223 @@
+/*=============================样式重置=============================*/
+/*----------------------第一步：清样式，清间距-----------------------*/
+body,h1,h2,h3,h4,h5,h6,a,p,ol,ul,li,dl,dt,dd,input{padding: 0; margin: 0; box-sizing: border-box;}
+ul,ol{list-style: none;}
+input{outline: none; border: 0; }
+img{display: block;}
+/* body,html{width: 100%;} */
+/*------------------------第二步：定义全局样式-----------------------*/
+/* body{font-size: 14px; color: #3e3e3e; font-family: "微软雅黑"; height: 2000px;} */
+body{font: 14px/1.5 Helvetica Neue,Helvetica,Arial,Microsoft Yahei,Hiragino Sans GB,Heiti SC,WenQuanYi Micro Hei,sans-serif;min-width: 1423px;}
+/*------------------------第三步：定义超链接样式---------------------*/
+a{text-decoration: none; color: #999;}
+/* a:hover{color: #f60;} */
+/*=============================公共样式=============================*/
+.w{width: 1256px; margin: 0 auto;}
+.l{float: left;}
+.r{float: right;}
+/*  ===========================*/
+@font-face {
+    font-family: 'iconfont';
+    src: url('../font/iconfont.css');
+    src: url('../font/iconfont.eot?#iefix') format('embedded-opentype'),
+        url('../font/iconfont.woff2') format('woff2'),
+        url('../font/iconfont.woff') format('woff'),
+        url('../font/iconfont.ttf') format('truetype'),
+        url('../font/iconfont.svg#iconfont') format('svg');
+  }
+  .iconfont {
+    font-family: "iconfont" !important;
+    font-size: 20px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+#sidebar{
+    position: fixed;
+    z-index: 1; 
+    top: 50%;
+    /* margin-top: -105px; */
+    right: 53px;
+}
+#sidebar ul li:hover{color: #f60;}
+#sidebar ul li .qr {
+    width: 100px;
+    height: 160px;
+    padding: 14px;
+    background: #fff;
+    position: absolute;
+    left: -145px;
+    top: 0;
+    transition: all .3s;
+    display: none;
+}
+#sidebar ul li .qr p{
+    margin-top: 15px;
+    font-size: 14px;
+    color: #999;
+    line-height: 20px;
+}
+#sidebar ul li .qr img{
+    width: 100%;
+}
+#sidebar ul li .qr::after {
+    content: "";
+    width: 20px;
+    border-left: 12px solid #fff;
+    display: block;
+    position: absolute;
+    border-top: 12px solid rgba(0, 0, 0, 0);
+    border-bottom: 12px solid rgba(0, 0, 0, 0);
+    right: -32px;
+    top: 10px;
+}
+#sidebar ul li:nth-child(1):hover .qr{
+    display: block;
+}
+
+#sidebar ul li .pr::after {
+    content: "";
+    width: 20px;
+    border-left: 12px solid #fff;
+    display: block;
+    position: absolute;
+    border-top: 12px solid rgba(0, 0, 0, 0);
+    border-bottom: 12px solid rgba(0, 0, 0, 0);
+    right: -32px;
+    top: 10px;
+}
+#sidebar ul li .pr {
+    width: 70px;
+    height: 15px;
+    padding: 14px;
+    background: #fff;
+    position: absolute;
+    left: -120px;
+    top: 45px;
+    transition: all .3s;
+    display: none;
+    text-align: center;
+    line-height: 15px;
+    font-size: 14px;
+    color: #999;
+}
+#sidebar ul li:nth-child(2):hover .pr{
+    display: block;
+}
+#sidebar ul li:nth-child(3):hover .pr{
+    top:85px;
+    display: block;
+}
+#sidebar ul li:nth-child(4):hover .pr{
+    top:125px;
+    display: block;
+}
+#sidebar ul li:nth-child(5):hover .pr{
+    top:165px;
+    display: block;
+}
+
+#sidebar ul li{
+    cursor:pointer;
+    color: #999;
+    text-align: center;
+    line-height: 42px;
+    width: 30px;
+    height: 42px;
+    background-color: #fff;
+}
+.banner a{
+    position: absolute;
+    right: 60px;
+    top: 45px;
+    color: #000;
+}
+.banner{
+    position: relative;
+    min-width: 1423px;
+    
+    height: 600px;
+    margin-left: -450px;
+    overflow: hidden;
+  
+}
+.banner img{
+    height: 600px;
+}
+
+.bao{
+    width: 100%;
+    height: 150px;
+    background-color: #ccc;
+}
+.bao h1{
+    font-weight: normal;
+    line-height: 150px;
+    text-align: center;
+    font-size: 35px;
+}
+.body{
+    height: 1080px;
+    padding-top: 20px;
+    background-color: #f8f8f8;
+}
+.ha{
+    margin-top: 20px;
+}
+dl{
+    margin-left: 28px;
+   
+}
+dl dt img{
+    width: 600px;
+    height: 360px;
+    transition: all 1s;
+    cursor: pointer;
+}
+dl dt{
+    width: 600px;
+    height: 360px;
+    overflow: hidden;
+}
+dl dt img:hover{
+    transform: scale(1.1);
+}
+dl dd{
+    width: 600px;
+    height: 135px;
+    background-color: #fff;
+    padding: 0 40px;
+}
+dl dd h2{
+    cursor: pointer;
+    margin-top: 40px;
+    font-size: 20px;
+    height: 31px;
+}
+dl dd h2 p{
+    cursor: auto;
+    font-size: 12px;
+    color: #666;
+}
+dl dd h3{
+    text-align: right;
+    font-size: 20px;
+    height: 31;
+    margin-top: 37px;
+    color: #ea625b;
+}
+dl dd h3 a{
+    text-align: center;
+    line-height: 44px;
+    display: inline-block;
+    width: 160px;
+    height: 44px;
+    background-color:  #ea625b;
+    color: #fff;
+}
+
+
+
+
+
