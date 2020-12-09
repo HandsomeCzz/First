@@ -1,0 +1,1138 @@
+/*=============================样式重置=============================*/
+/*----------------------第一步：清样式，清间距-----------------------*/
+body,h1,h2,h3,h4,h5,h6,a,p,ol,ul,li,dl,dt,dd,input{padding: 0; margin: 0; box-sizing: border-box;}
+ul,ol{list-style: none;}
+input{outline: none; border: 0; }
+img{display: block;}
+/* body,html{width: 100%;} */
+/*------------------------第二步：定义全局样式-----------------------*/
+/* body{font-size: 14px; color: #3e3e3e; font-family: "微软雅黑"; height: 2000px;} */
+body{font: 14px/1.5 Helvetica Neue,Helvetica,Arial,Microsoft Yahei,Hiragino Sans GB,Heiti SC,WenQuanYi Micro Hei,sans-serif;}
+/*------------------------第三步：定义超链接样式---------------------*/
+a{text-decoration: none; color: #999;}
+a:hover{color: #f60;}
+/*=============================公共样式=============================*/
+.w{width: 1226px; margin: 0 auto;}
+.l{float: left;}
+.r{float: right;}
+
+
+    /* 头 */
+#header h1 {
+    height: 120px;
+    background: url(../images/index/header.jpg) center;
+    background-size: auto 100%;
+}
+
+    /* 导航 */
+#nav {
+    height: 40px;
+    line-height: 40px;
+    background: #333;
+}
+#nav a {
+    font-size: 12px;
+    color: #b0b0b0;
+}
+#nav span {
+    font-size: 12px;
+    margin: 0 4px;
+    color: #424242;
+}
+#nav .shop {
+    width: 120px;
+    margin-left: 15px;
+    text-align: center;
+}
+#nav .shop a {
+    display: block;
+    height: 40px;
+    background: #424242;
+}
+#nav .shop a span {
+    color: #b0b0b0;
+    font-size: 15px;
+}
+#nav a:hover {
+    color: #fff;
+}
+#nav .shop a:hover {
+    background: #fff;
+    color: #f60;
+}
+#nav .shop a:hover span {
+    color: #f60;
+}
+
+    /* suspension */
+#suspension {
+    height: 400px;
+    width: 80px;
+    position: fixed;
+    right: 0;
+    top: calc(50% - 250px);
+    z-index: 25;
+}
+#suspension ul {
+    height: 100%;
+    width: 100%;
+    border: 1px solid #f5f5f5;
+    border-right: none;
+    border-bottom: none;
+}
+#suspension ul li {
+    width: 100%;
+    height: 20%;
+    border-bottom: 1px solid #f5f5f5;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+#suspension ul li p {
+    text-align: center;
+    color: #757575;
+}
+#suspension ul li p span {
+    font-size: 30px;
+}
+#suspension ul li .qr {
+    width: 100px;
+    height: 160px;
+    padding: 14px;
+    background: #fff;
+    position: absolute;
+    left: -145px;
+    top: 0;
+    transition: all .3s;
+    display: none;
+}
+#suspension ul li img {
+    width: 100%;
+}
+#suspension ul li:hover p {
+    color: #f60;
+}
+#suspension ul li .desc {
+    display: block;
+    width: 82px;
+    margin: 14px auto 0;
+    text-align: center;
+}
+#suspension ul li .qr::after {
+    content: "";
+    width: 20px;
+    border-left: 12px solid #fff;
+    display: block;
+    position: absolute;
+    border-top: 12px solid rgba(0, 0, 0, 0);
+    border-bottom: 12px solid rgba(0, 0, 0, 0);
+    right: -32px;
+    top: 40px;
+}
+#suspension ul li:nth-child(1):hover .qr {
+    display: block;
+}
+
+    /* search */
+#search {
+    
+    position: relative;
+}
+#search article {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* search-logo */
+#search article .search-logo {
+    width: 55px;
+    height: 55px;
+    background: #f60;
+    position: relative;
+    overflow: hidden;
+}
+#search article .search-logo a::before {
+    content: "";
+    display: inline-block;
+    width: 55px;
+    height: 55px;
+    background:
+        url(../images/index/mi-home.png) no-repeat 50% 50%;
+    position: absolute;
+    left: -55px;
+    transition: all .1s;
+}
+#search article .search-logo a::after {
+    content: "";
+    display: inline-block;
+    width: 55px;
+    height: 55px;
+    background:
+        url(../images/index/mi-logo.png) no-repeat 50% 50%;
+    position: absolute;
+    left: 0;
+    transition: all .1s;
+}
+#search article .search-logo:hover a::before {
+    left: 0;
+}
+#search article .search-logo:hover a::after {
+    left: 55px;
+}
+
+/* search-nav */
+#search article .search-nav ul li {
+    height: 100%;
+}
+#search article .search-nav ul li a {
+    display: block;
+    padding: 26px 10px 38px;
+    color: #333;
+    font-size: 15px;
+}
+#search article .search-nav ul li a:hover {
+    color: #f60;
+}
+#search .search_menu{
+    width: 100%;
+    /* background: red; */
+    position: absolute;
+    z-index: 3;
+    left: 0;
+    top: 100px;
+    border-top: 1px solid #ccc;
+    display: none;
+}
+#search .search_menu ul{
+    background: #fff;
+    height: 180px;
+}
+
+/* search-search */
+#search article .search-search form {
+    width: 296px;
+    height: 50px;
+    position: relative;
+}
+#search article .search-search .text {
+    width: 223px;
+    height: 100%;
+    padding: 10;
+    position: absolute;
+    right: 50px;
+    padding:
+        0 10px;
+    border: 1px solid #ccc;
+    border-right: none;
+}
+#search article .search-search .btn {
+    width: 50px;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    border: 1px solid #ccc;
+    background: #fff;
+    cursor: pointer;
+    color: #616161;
+}
+#search article .search-search .btn:hover {
+    color: #fff;
+    background: #f60;
+    border-color: #f60;
+}
+.note{
+    padding:0 100px;
+    width: 1423;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    border-top:1px solid #ccc ;
+    border-bottom:1px solid #ccc ;
+    position:sticky;
+    top:0px;
+    background-color: #fff;
+    z-index: 2;
+    min-width: 962px;
+}
+.note p{
+    font-size: 14px; 
+}
+.note p span{
+    font-size: 10px; 
+    color: #757575e5;
+    line-height: 60px;
+
+}
+.note ul li{
+    font-size: 10px;
+    line-height: 60px;
+    height: 60px;
+}
+.note ul li a{
+    padding: 0 10px;
+    border-left: 1px solid #ccc;
+}
+.note ul li:nth-of-type(1) a{border: 0;}
+.note ul li:nth-of-type(6) a{
+    margin-top: 15px;
+    display:block;
+    color: #fff;
+    height: 30px;
+    line-height: 30px;
+    width: 120px;
+    background-color: #f60
+}
+.big1{
+    height: 726px;  
+    background: url(../images/Novaimg/pv.jpg) no-repeat ;
+    background-size: cover;
+    position: relative;
+}
+.big1 img{
+    width: 281px;
+    height: 72px;
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 230px;
+    opacity: 0.3;
+}
+.big1 p{
+    display: block;
+    position: absolute;
+    margin-top: 450px;
+    margin-left: 230px;
+    font-size: 20px;
+    opacity: 0.2;
+
+}
+.big1 span{
+    display: block;
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 230px;
+    font-size: 20px;
+    color: #ff3838;
+    opacity: 1;
+
+
+}
+.big2{
+    height: 583px;
+    background: url(../images/Novaimg/characteristic.jpg) no-repeat;
+    background-size:cover ;
+    overflow: hidden;
+}
+.big2 p{
+    margin-left: 250px;
+    margin-top: 150px;
+    color:#fff;
+    height: 330px;
+    width: 300px;
+    opacity: 1;
+}
+.big3{
+    height: 850px;
+    background: url(../images/Novaimg/performance.jpg) no-repeat;
+    background-size:cover ;
+}
+.big4{
+    height: 300px;
+    background: url(../images/Novaimg/chip.jpg) no-repeat;
+    background-size:cover ;
+}
+.big5{
+    height: 727px;
+    background: url(../images/Novaimg/cpu.jpg) no-repeat;
+    background-size:cover ;
+    color:#fff;
+    padding-left: 250px;
+    overflow: hidden;
+}
+.big5 h2{
+    height: 100px;
+    margin-top: 100px;
+   
+}
+.big5 img{
+    width: 256px;
+    margin-left: 10px;
+   
+
+}
+.big5 p{
+    width: 420px;
+    
+    color: #7d7b7a;
+}
+.big5 h3{
+    margin-top: 50px;
+    height: 51px;
+    line-height: 51px;
+}
+.big5 .big5-0{
+    position: relative;
+    width: 312px;
+}
+.big5-1,.big5-2,.big5 img{
+    display: inline-block;
+}
+.big5-2{
+    position: absolute;
+    right: 8px;
+    bottom: 10px;
+    color: #e9d5b8;
+}
+.big5 span{
+    display: block;
+    margin-top: 20px;
+    color: #3e3b39;
+}
+
+.big5 .big5-3{
+    position: relative;
+    width: 205px;
+}
+.big5-4,.big5-5,.big5-3 img{
+    display: inline-block;
+}
+.big5-4{
+    color: #3e3b39;
+}
+
+.big5-3{
+    margin-top: 10px;
+}
+.big5-3 img{
+    width: 133px;
+}
+.big5-5{
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+    color: #47361d;
+
+}
+.big5 ul li img{
+    width: 37px;
+    height: 37px;
+}
+.big5 ul li{
+    width: 130px;
+    margin-top: 33px;
+}
+.big5 ul{
+    width: 260px;
+    height: 270px;
+}
+.big6{
+    height: 720px;
+    background: url(../images/Novaimg/ufs.jpg) no-repeat;
+    background-size:cover ;
+    text-align: center;
+    overflow: hidden;
+    width: 100%;
+    min-width: 1423px;
+    
+}
+.big6 h3{
+    display: inline-block;
+    width: 290px;
+    margin-top: 100px; 
+    font-size: 22px;
+    color: #fff;
+}
+.big6 p{
+    width: 410px;
+    display: inline-block;
+    margin-top: 72px;
+    font-size: 12px;
+    color: #534f4c;
+}
+.big7{
+    height: 720px;
+    min-width: 1423px;
+    background: url(../images/Novaimg/hpb.jpg) no-repeat;
+    background-size:cover ;
+    overflow: hidden;
+}
+.big7 h2{
+    height: 100px;
+    margin-top: 70px;
+    color: #fff;
+    margin-left: 250px;
+}
+.big7 p{
+    margin-left: 250px;
+    width: 350px;
+    color: #7d7b7a;
+}
+
+.big7 ul li img{
+    width: 37px;
+    height: 37px;
+}
+.big7 ul li{
+    width: 130px;
+    margin-top: 33px;
+}
+.big7 ul li p{
+    margin-left: 0;
+    margin-top: 10px;
+}
+.big7 ul{
+    width: 260px;
+    height: 270px;
+    margin-left: 250px;
+}
+
+.big8{
+    height: 720px;
+    background: url(../images/Novaimg/temperature.jpg) no-repeat;
+    background-size:cover ;
+    text-align: center;
+    overflow: hidden;
+    min-width: 1423px; 
+}
+.big8 h3{
+    display: inline-block;
+    margin-top: 72px;
+    font-size: 22px;
+    color: #fff;
+}
+.big8 p{
+    display: inline-block;
+    margin-top: 42px;
+    font-size: 12px;
+    color: #534f4c;
+}
+.big9{
+    height: 200px;
+    background-color: #000;
+    text-align: center;
+    line-height: 300px;
+    min-width: 1423px;
+
+}
+.big9 img{
+    width: 266px;
+    height: 81px;
+    display: inline-block;
+}
+.big10{
+    height: 720px;
+    background: url(../images/Novaimg/endurance.jpg) no-repeat;
+    background-size:cover ;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    min-width: 1423px;
+}
+.big10 p{
+    display: inline-block;
+
+    color: #534f4c;
+
+}
+.big10 h3{
+    margin-top: 72px;
+    font-size: 22px;
+    color: #fff;
+}
+.big10 ul li p{
+    text-align: left;
+    height: 58px;
+    font-size: 12px;
+    color: #534f4c;
+}
+.big10 ul{
+    margin-left: 180px;
+    position: absolute;
+    bottom: 0;
+    height: 110px;
+    width: 940px;
+    
+}
+.big10 ul li{
+    width: 110px;
+    height: 100px;
+    margin-left: 125px;
+}
+.big10 ul li img{
+    width: 37px;
+    height: 37px;
+}
+
+.big11{
+    height: 720px;
+    background: url(../images/Novaimg/voice.jpg) no-repeat;
+    background-size:cover ;
+    text-align: center;
+    overflow: hidden;
+    width: 100%;
+    min-width: 1423px;
+}
+.big11 p{
+    display: inline-block;
+    color: #534f4c;
+
+}
+.big11 h3{
+    margin-top: 72px;
+    font-size: 22px;
+    color: #fff;
+}
+.big12{
+    height: 720px;
+    background: url(../images/Novaimg/motor.jpg) no-repeat;
+    background-size:cover ;
+    text-align: center;
+    overflow: hidden;
+    width: 100%;
+    min-width: 1423px;
+}
+.big12 p{
+    color: #534f4c;
+    display: inline-block;
+
+}
+.big12 h3{
+    margin-top: 72px;
+    font-size: 22px;
+    color: #fff;
+}
+.big13{
+    height: 300px;
+    background: url(../images/Novaimg/vanguard-bg.jpg) no-repeat;
+    background-size:cover ;
+    overflow: hidden;
+}
+.big13 img{
+    width: 300px;
+    margin-top: 110px;
+    margin-left: 250px;
+}
+.big14{
+    height: 720px;
+    background: url(../images/Novaimg/5g.jpg) no-repeat;
+    background-size:cover ;
+    overflow: hidden;
+    padding-left: 250px;
+}
+.big14 h2{
+    height: 100px;
+    margin-top: 70px;
+    color: #fff;
+
+}
+.big14 p{
+    margin-top: 10px;
+    color: #7d7b7a;
+    width: 355px;
+}
+
+.big14 ul li img{
+    width: 37px;
+    height: 37px;
+}
+.big14 ul li{
+    width: 130px;
+    margin-top: 33px;
+}
+.big14 ul{
+    width: 260px;
+    height: 270px;
+}
+
+.big15{
+    height: 720px;
+    background: url(../images/Novaimg/screen.jpg) no-repeat center;
+    background-size:cover ;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    min-width: 1423px;
+    padding-top: 100px;
+}
+.big15 img{
+    display: inline-block;
+    width: 230px;
+}
+
+.big15 ul li p{
+    text-align: center;
+    height: 58px;
+    font-size: 12px;
+    color: #534f4c;
+}
+.big15 ul{
+    margin-left: 300px;
+    position: absolute;
+    bottom: 0;
+    height: 110px;
+    width: 940px;
+    margin-top: 50px;
+    
+}
+.big15 ul li{
+    width: 110px;
+    height: 100px;
+    margin-left: 130px;
+}
+.big15 ul li img{
+    width: 37px;
+    height: 37px;
+}
+
+.big15 h3{
+    color: #fff;
+}
+.big16{
+    height: 720px;
+    background: url(../images/Novaimg/protection.jpg) no-repeat;
+    background-size:cover ;
+    overflow: hidden;
+    padding-left: 250px;
+}
+.big16 h2{
+    height: 100px;
+    margin-top: 70px;
+    color: #fff;
+}
+.big16 p{
+    color: #7d7b7a;
+    width: 400px;
+}
+.big16 ul li img{
+    width: 37px;
+    height: 37px;
+}
+.big16 ul li{
+    width: 130px;
+    margin-top: 33px;
+}
+.big16 ul{
+    width: 260px;
+    height: 270px;
+}
+.big17{
+    height: 720px;
+    background: url(../images/Novaimg/camera.jpg) no-repeat;
+    background-size:cover ;
+    position: relative;
+}
+.big17 h2{
+    color: #fff;
+    position: absolute;
+    margin-left: 1000px;
+    margin-top: 300px;
+    width: 260px;
+    font-size: 40px;
+}
+.big18{
+    text-align: center;
+    width: 833px;
+    padding-left: 300px;   
+}
+.big18 p{
+    text-align: left;
+    font-size: 20px;
+    padding-left: 30px;
+    height: 120px;
+    padding-top: 20px;
+}
+.big18 p span{
+    font-size: 14px;
+    color: #444;
+}
+.big18 img{
+    width: 833px; 
+    height: 613px;
+    display: inline-block;
+}
+.big18 h4{
+    padding-left: 30px; 
+    text-align: left;
+    display: table-cell;
+    vertical-align:middle;
+    font-size: 24px;
+    height: 170px;  
+}
+.big18 div{
+ 
+    height: 516px;
+}
+.big18 dl dd{
+    width: 388px;
+    
+}
+.big18 dl dd p{
+    width: 388px;
+    text-align: center;
+    padding-left: 0;
+
+}
+.big18 dl dt img{
+    width: 388px;
+    height: 388px;
+}
+.big18 dl:nth-of-type(2){margin-left: 57px;}
+.big19 img{
+    height: 710px;
+}
+.big20{
+    height: 1360px;
+    padding-left: 300px; 
+
+}
+.big20 video{
+    width: 833px;
+    height: 570px;
+    border: none;
+    outline: none;
+
+}
+.big20 h4{
+    padding-top: 50px;
+    padding-left: 30px; 
+    text-align: left;
+    font-size: 24px;
+    width: 260px;
+    height: 120px;
+    line-height: 40px;
+}
+.big20 dl{
+    margin-top: 30px;
+    width: 833px;
+    height: 577px;
+}
+.big20 dl dt img{
+    width: 833px;
+    height: 500px;
+}
+/* .big20 dl dd{
+} */
+.big20 dl dd p{
+    padding-left: 30px;
+    margin-top: 10px;
+    font-size: 22px;
+}
+.big20 dl dd p span{
+    font-size: 14px;
+    color: #444;
+}
+.big21{
+   height: 200px;
+}
+.big21 ul li img{
+    width: 35px;
+}
+.big21 ul{
+    height: 116px;
+    width: 980px;
+    margin-left: 190px;
+}
+.big21 ul li{
+    margin-left: 130px;
+    width: 115px;
+}
+.big21 ul li p{
+    font-size: 16px;
+    margin-top: 10px;
+}
+.big21 ul li p span{
+    color: #808080;
+    font-size: 12px;
+}
+.big22{
+    height: 300px;
+    background-color: #f2f2f2;
+    text-align: center;
+    min-width: 1423px;
+}
+.big22 div{
+    padding-top: 100px;
+}
+.big22 h1{
+    margin-top: 5px;
+}
+.big22 img{
+    display: inline-block;
+    width: 254px;
+    height: 36px;
+}
+.big23{
+    
+    height: 640px;
+    position: relative;
+}
+.big23 img{
+    position: absolute; 
+    width: 100%;
+    height: 640px;
+}
+.big24{
+    height: 400px;
+    text-align: center;
+    background-color: #000;
+    min-width: 1423px;
+}
+.big24 img{
+    display: inline-block;
+    width: 190px;
+    height: 35px;
+    margin-top: 68px;
+}
+.big24 h2{
+    margin-top: 50px;
+    line-height: 40px;
+    height: 115px;
+    font-size: 25px;
+    color: #fff;
+}
+.big24 p{
+    margin-top: 40px;
+    font-size: 17px;
+    color: #fff;
+}
+.big25{
+    height: 400px;
+    background-color: #000;
+    min-width: 1423px;
+}
+.big25 img{
+    display: block;
+    margin: 0 auto;
+    width: 800px;
+    height: 250px;
+}
+.big25 ul li img{   
+    display:block;
+    width: 24px;
+    height: 30px;
+    
+}
+.big25 ul li{
+    margin-left: 100px;
+}
+.big25 ul li p{
+    margin-top: 5px;
+    color: #fff;
+}
+.big25 ul{
+    display:block;
+    margin: 0 auto;
+    text-align: center;
+    width: 730px;
+    height: 70px;
+    margin-top: -70px;
+    position: relative;
+    z-index: 1;
+   
+}
+.big25 ul li p span{
+    font-size: 12px;
+    color: #808080;
+}
+.big25 h6{
+    font-size: 14px;
+    color: #808080 ;
+    margin-top: 100px;
+}
+.big26 img,.big27 img,.big28 img{
+    height: 700px;
+    width: 100%;
+}
+.big26,.big27,.big28{
+    min-width: 1423px;
+    position: relative;
+}
+.big26 h2{
+    text-align: center;
+    font-size: 25px;
+    color: #fff;
+    position: absolute;
+    margin-top: 150px;
+    left: 540px;
+}
+.big27 h2{
+    text-align: center;
+    font-size: 25px;
+    color: #fff;
+    position: absolute;
+    margin-top: 50px;
+    left: 595px;
+}
+.big28 h2{
+    text-align: center;
+    font-size: 25px;
+    color: #fff;
+    position: absolute;
+    margin-top: 50px;
+    left: 595px;
+}
+
+.big29{
+    color:#fff;
+    background-color: #000;
+    text-align: center;
+    height: 500px;
+    overflow: hidden;
+    min-width: 1423px;
+}
+.big29 h2{
+    font-size: 24px;
+    margin-top: 200px;
+}
+.big29 img{
+    display: inline-block;
+    width: 42px;
+}
+.big29 ul{
+    display: inline-block;
+    margin: 0 auto;
+    margin-top: 100px;
+    height: 65px;
+    
+    text-align: center;
+}
+
+.big29 ul li:nth-of-type(2){
+    margin-left: 130px;
+}
+
+.big30{
+    text-align: center;
+    background-color: #000;
+    min-width: 1423px;
+
+}
+.big30 img{
+    display: inline-block;
+    height: 500px;
+    width: 80%;
+}
+.big31{
+    text-align: center;
+    color:#fff;
+    height: 500px;
+    background-color: #000;
+    min-width: 1423px;
+}
+.big31 img{
+    display: inline-block;
+    width: 37px;
+    height: 40px;
+}
+.big31 ul li{   
+    margin-left: 100px;
+}
+
+.big31 ul li span{
+    color: #808080 ;
+}
+.big31 ul{
+    margin-top: 200px;
+    margin-left: 184px;
+}
+
+
+
+.big32{
+    height: 500px;
+    text-align: center;
+    padding-top: 70px;
+    min-width: 1423px;
+}
+.big32 img{
+    margin: 0 auto;
+    width: 95px;
+}
+.big32 ul li:nth-of-type(1){
+    margin-top: 40px;
+
+    width: 333px;
+    height: 172px;
+    background: url(../images/Novaimg/miui-l.jpg) no-repeat center;
+    background-size: cover;
+    
+}
+.big32 h3{
+    margin-top: 40px;
+    display: inline-block;
+    width: 148px;
+}
+.big32 ul{
+    margin: 0 auto;
+    width: 728px;
+}
+.big32 ul li p{
+    font-size: 14px;
+    width: 206px;
+    text-align: left;
+    margin-top: 45px;
+    margin-left: 40px;
+    color: #FFF;
+}
+.big32 ul li p span{
+    font-size: 12px;
+    display: block;
+    margin-top: 10px;
+    color: #FFF;
+
+}
+.big32 ul li:nth-of-type(2){
+    margin-top: 40px;
+    margin-left: 60px;
+    width: 333px;
+    height: 172px;
+    background: url(../images/Novaimg/miui-r.jpg) no-repeat center;
+    background-size: cover;
+    
+}
+.big33{
+    position: relative;
+    width: 100%;
+    min-width: 1423px;
+}
+.big33 img{
+    width: 100%;
+    height: 680px;
+}
+.big33 h2 img{
+    width: 184px;
+    height: 32px;
+    position: absolute;
+    z-index: 1;
+    margin-left: 348px;
+    margin-top: 92px;
+}
+.big33 p{
+    position: absolute;
+
+    margin-left: 348px;
+    margin-top: 144px;
+}
+.big34{
+    height: 760px;
+    background-color: #e6e6e6;
+}
+.big34 ul{
+    color: #737373;
+    padding-left: 223px;
+    padding-top: 80px;
+}
+.big34 ul li{
+    width: 1000px;
+    height: 40px;
+    font-size: 10px;
+}
+
+
+
+
+
