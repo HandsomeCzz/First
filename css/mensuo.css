@@ -337,7 +337,7 @@ a:hover{color: #fff;}
     height: 24px;
 }
 .content .neirong .info{
-    height: 42px;
+    /* height: 42px; */
     margin-top: 8px;
     line-height: 20px;
     color: #b0b0b0;

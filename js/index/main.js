@@ -6,7 +6,6 @@ import change from './change/change.js';
 import initelectric from './init/initElectric.js';
 import initAi from './init/initAi.js';
 import initCollocation from './init/initCollocation.js';
-import initBanner from './init/initBanner.js';
 import time from '../shoppingcar/time.js';
 
 // search下拉菜单
@@ -41,18 +40,17 @@ getAi().then((res) => {
 });
 
 getCollocation().then((res) => {
+    console.log(res);
     initCollocation(res)
 })
 
 
 for (var i = 1; i <= 10; i++) {
     getBanner('banner_list' + i).then((res) => {
-        // console.log(res.banner_list);
         var tmp = '';
         for(var j = 0; j < res.banner_list.length ; j++){
             var str = '';
             for(var lsIndex = 0 ; lsIndex < res.banner_list[j].length ; lsIndex++){
-                console.log(res.banner_list[j][lsIndex]);
                 str += `
                     <li>
                         <a href="/First/html/mensuo.html?id=${res.banner_list[j][lsIndex]['id']}" target="_black">

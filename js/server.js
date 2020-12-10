@@ -17,16 +17,14 @@
         return $.ajax('js/json/collocation.json');
     }
 
-    // function getBanner(banner){
-    //     //return $.ajax('js/json/collocation.json');
-    //     console.log(`js/json/${banner}.json`);
-    //     return [$.ajax(`js/json/${banner}.json`)]
-    // }
-
     function getBanner(banner){
         return $.ajax('js/json/'+banner+'.json');
     }
 
+    function getDetail(){
+        return $.ajax('../js/json/detail.json');
+    }
 
-    export{getElectric as getElectric, getAi as getAi , getCollocation as getCollocation , getBanner as getBanner}
+
+    export{getElectric as getElectric, getAi as getAi , getCollocation as getCollocation , getBanner as getBanner , getDetail as getDetail}
 

@@ -3,10 +3,20 @@
     "code" : 0,
     "detail_list" : [
         {
-            "imgUrl0" : "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/011dd8493ad62f3793dbb63d9fbd3bc0.jpg?thumb=1&w=200&h=200&f=webp&q=90",
-            "h3Text0" : "小米「小爱老师」",
-            "p1Text0" : "英语提分利器",
-            "p2Text0" : "799元<span>999元</span>"
+            "name" : "小米10",
+            "id" : "10000214",
+            "change" : ["https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1581494045.31058391.jpg",
+            "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1581494052.12221865.jpg",
+            "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1581494060.7822643.jpg",
+            "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1581494070.59196940.jpg",
+            "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1581494068.13077664.jpg"],
+            "infoSpan" : "「买赠1TB超大云空间年卡；可使用北京消费券；购机尊享特惠加价购」",
+            "info" : "骁龙865处理器 / 1亿像素8K电影相机 / 双模5G / 新一代LPDDR5内存 / 对称式立体声 / 90Hz刷新率+180Hz采样率 / UFS 3.0高速存储 / 全面适配Wi-Fi 6 / 超强VC液冷散热 / 30W极速闪充+30W无线闪充+10W无线反充 / 4780mAh大电量 / 多功能NFC",
+            "info2" : "小米自营",
+            "price" : "<span>3799   </span>元",
+            "select1" : ["8GB+128GB"," 8GB+256GB","12GB+256GB"],
+            "select2" : ["国风雅灰","钛银黑","冰海蓝","蜜桃金"],
+            "dor" : "3799 元"
         }
     ]
 }
