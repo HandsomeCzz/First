@@ -185,8 +185,6 @@ $('.second').on('input', () => {
 
 $('.tijiao').on('click',()=>{
     if($yanzheng() && $yanzheng2() ){
-        console.log($('.haoma').html());
-        console.log($('.second').val());
        $.ajax({
          url : '../../../../First/php/reg.php' ,
          data : {
@@ -195,17 +193,16 @@ $('.tijiao').on('click',()=>{
          }, 
          type : 'post' ,       
          success : function index (data){
-             $('.big').html(data)
+            var data = JSON.parse(data);
+             $('.big').html(`
+             <script>alert("恭喜你注册成功");location.href="../../../../First/html/id.html?id=${data.id}";</script>` 
+             )
          },
-
          error :function err (){
             return false
          }
-
        })
     }
-    
-
 })
 
 
@@ -215,3 +212,28 @@ $('.tijiao').on('click',()=>{
 
 
 export { show, showa, number, button, sousuo };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

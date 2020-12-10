@@ -20,13 +20,26 @@ if($con){
         $sql = "insert into phonenumber(phonenumber,password) values('{$username}','{$password}')";
         $query = mysqli_query($con , $sql);
 
+
+        $sql1 = "insert into user (id, phonenumber) 
+        SELECT MAX(mk.id)+1,'{$username}'
+        FROM user as mk
+        ";
+        $query = mysqli_query($con , $sql1);
+
+        $sql2 = 'select MAX(mk.id) FROM user as mk';
+        $query = mysqli_query($con , $sql2);
+
+        while($row = mysqli_fetch_assoc($query)){
+           $str =  array_shift($row);
+        };
+
         if($query){
-            echo '<script>alert("恭喜你注册成功");location.href="";</script>';
+            echo '{"code":1,"id" : '. json_encode($str) .'}';
         }
         else{
-            echo '<script>alert("注册失败");/* history.back() */;</script>';
+            echo '<script>alert("注册失败");location.href="";</script>';
         }
-
     }
 
 }
