@@ -339,6 +339,20 @@ li p:nth-of-type(2) span{
 #search article .search-nav ul li {
     height: 100%;
 }
+#search article .search-nav{
+    position: relative;
+    padding-left: 30px;
+}
+#search article .search-nav>a{
+    display: block;
+    height: 100px;
+    width: 165px;
+    background: url(https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/1e455ea5dca7763e88f7a4bfface056d.jpg?w=165&h=55) no-repeat center;
+    position: absolute;
+    left: -102px;
+    top: -3px;
+    cursor: pointer;
+}
 #search article .search-nav ul li a {
     display: block;
     padding: 26px 10px 38px;
