@@ -107,8 +107,13 @@ function aj(){
         data = JSON.parse(data)
         if (data.code == 1){
             localStorage.setItem('username', data.list[0].id);
+            
             var href = localStorage.getItem('href')
-            window.location.replace(href);
+            if (href){
+                window.location.replace(href);
+            } else {
+                window.location.replace('../../index.html');
+            }
         }
         else {
             var el = $('<p class="el">用户名或密码不正确</p>');

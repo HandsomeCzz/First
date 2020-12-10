@@ -21,8 +21,8 @@
     }
     $sql = "SELECT * FROM phonenumber LEFT JOIN user
     ON phonenumber.phonenumber = user.phonenumber
-    WHERE (phonenumber.phonenumber = $username or user.id = $username)
-    AND phonenumber.password = $password";
+    WHERE (phonenumber.phonenumber = $username or user.id = '{$username}')
+    AND phonenumber.password = '{$password}'";
 
     // echo $sql;
     $query = mysqli_query($con , $sql);

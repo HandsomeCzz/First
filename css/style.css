@@ -446,26 +446,30 @@ li p:nth-of-type(2) span{
     top: 0;
     z-index: 1;
 }
-#banner nav ul {
+#banner nav>ul {
     height: 460px;
     background: rgba(105, 101, 101, .6);
     padding: 20px 0;
+    position: relative;
 }
-#banner nav ul li a {
+#banner nav>ul>li a {
     position: relative;
     width: 234px;
     display: block;
     height: 42px;
     line-height: 42px;
-    padding-left:
-        30px;
+    padding-left:30px;
     color: #fff;
+    font-size: 14px;
 }
-#banner nav ul li a span {
+#banner nav>ul>li a span {
     position: absolute;
     right: 30px;
 }
-#banner nav ul li a:hover {
+#banner nav>ul>li:hover .item{
+    display: block;
+}
+#banner nav>ul>li>a:hover {
     background: #f60;
 }
 #banner .banner {
@@ -515,6 +519,47 @@ li p:nth-of-type(2) span{
 #banner .banner .btn .banner_btn:hover{
     background: rgba(0,0,0,.4);
     color: #fff;
+}
+
+#banner .item{
+    position: absolute;
+    width: 992px;
+    left: 234px;
+    top: 0;
+    /* background: #fff; */
+    display: none;
+}
+#banner .item ul{
+    background: #fff;
+    width: 248px;
+    height: 458px;
+}
+#banner .item ul li{
+    width: 265px;
+    height: 76px;
+}
+#banner .item ul li a{
+    display: block;
+    padding: 18px 20px;
+    line-height: 40px;
+    color: #333;
+}
+#banner .item ul li a:hover{
+    color: #f60;
+}
+#banner .item ul li a img{
+    width: 40px;
+    height: 40px;
+    margin-right: 12px;
+    vertical-align: middle;
+}
+#banner .item ul li a span{
+    width: 135px;
+    line-height: 40px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-size: 14px;
 }
 
 /* home */

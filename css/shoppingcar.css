@@ -32,7 +32,7 @@ section.w div.r a:hover{color: #ff6700;}
 /* ================main============ */
 #main{height: 1775px;width: 100%;background: #f5f5f5;padding: 38px 0;}
 main{height: 1775px;}
-#banner{height: 273px;width: 100%;background: url(https://cdn.cnbj1.fds.api.mi-img.com/staticsfile/cart/cart-empty.png) no-repeat 124px 0;margin-top: 65px;margin-bottom: 130px;}
+#banner{height: 273px;width: 100%;background: url(https://cdn.cnbj1.fds.api.mi-img.com/staticsfile/cart/cart-empty.png) no-repeat 124px 0;margin-top: 65px;margin-bottom: 130px; position: relative;}
 #banner .r{width: 668px;height: 100%;}
 #banner .r h2{margin-top: 70px;font-size: 36px;font-weight: bold;color: #b0b0b0;height: 54px;}
 #banner .r p{font-size: 20px;color: #b0b0b0;}
@@ -106,3 +106,61 @@ footer{height: 579px;width: 100%;background: #f5f5f5;}
 .footer_bottom_center .w #bo_logo .info-links a:nth-of-type(4){position: relative;}
 .footer_bottom_center .w #bo_logo .info-links a img.img1{position: absolute;top: 0;left: 90px;margin-top: 4px;z-index: 2;}
 .footer_bottom_center .w #bo_logo .info-links a img.img2{position: absolute;top: 0;left: 90px;margin-top: 4px;}
+
+
+
+
+
+/* czz 追加 */
+#banner .shoppingcar{
+    height: 150%;
+    background: #fff;
+    position: absolute;
+    top: -20%;
+    font-size: 14px;
+    display: none;
+}
+#banner .shoppingcar .header{
+    height: 70px;
+    padding-right: 26px;
+    text-align: center;
+    line-height: 70px;
+}
+#banner .shoppingcar .header .check{
+    width: 110px;
+    position: relative;
+}
+#banner .shoppingcar .header .check input{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 5px;
+}
+#banner .shoppingcar .header .image{
+    width: 120px;
+    height: 70px;
+}
+#banner .shoppingcar .header .name{
+    width: 380px;
+    text-align: left;
+}
+#banner .shoppingcar .header .price{
+    width: 140px;
+    padding-right: 18px;
+}
+#banner .shoppingcar .header .num{
+    width: 150px;
+}
+#banner .shoppingcar .header .sum{
+    width: 120px;
+    padding-right: 81px;
+}
+#banner .shoppingcar .header .do{
+    width: 80px;
+}
+#banner .shoppingcar .item{
+    height: calc(100% - 70px);
+    border-top: 1px solid #ccc;
+}
+
+

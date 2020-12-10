@@ -1,4 +1,4 @@
-import { getElectric , getAi , getCollocation , getBanner} from '../server.js'
+import { getElectric, getAi, getCollocation, getBanner } from '../server.js'
 import search_menu from './search/search_menu.js';
 import banner_footer from './banner/banner.js';
 import lightning from './lightning/lightning.js';
@@ -6,11 +6,8 @@ import change from './change/change.js';
 import initelectric from './init/initElectric.js';
 import initAi from './init/initAi.js';
 import initCollocation from './init/initCollocation.js';
-<<<<<<< HEAD
 import initBanner from './init/initBanner.js';
-=======
 import time from '../shoppingcar/time.js';
->>>>>>> 92e8849e4befd178b45438aaebd4ce0c7e515920
 
 // search下拉菜单
 search_menu();
@@ -21,54 +18,83 @@ lightning();
 // change
 change();
 
+// footer 跳动的心
 time();
 
 banner_footer({
-    elem : '.banner_footer',
-    current : 0
+    elem: '.banner_footer',
+    current: 0
 })
 
-$('a').attr('target','_black')
+$('a').attr('target', '_black')
 
-getElectric().then((res)=>{
+getElectric().then((res) => {
 
     initelectric(res);
 
 });
 
-getAi().then((res)=>{
+getAi().then((res) => {
 
     initAi(res);
 
 });
 
-getCollocation().then((res)=>{
+getCollocation().then((res) => {
     initCollocation(res)
 })
 
-// getBanner().then((res)=>{
+
+for (var i = 1; i <= 10; i++) {
+    getBanner('banner_list' + i).then((res) => {
+        // console.log(res.banner_list);
+        var tmp = '';
+        for(var j = 0; j < res.banner_list.length ; j++){
+            var str = '';
+            for(var lsIndex = 0 ; lsIndex < res.banner_list[j].length ; lsIndex++){
+                console.log(res.banner_list[j][lsIndex]);
+                str += `
+                    <li>
+                        <a href="/First/html/mensuo.html?id=${res.banner_list[j][lsIndex]['id']}" target="_black">
+                            <img class="l" src="${res.banner_list[j][lsIndex].imgUrl}"/>
+                            <span class="l">${res.banner_list[j][lsIndex].spanText}</span>
+                        </a>
+                    </li>
+                `;
+            }
+
+            tmp += '<ul class="l">' + str + '</ul>';
+        }
+
+        $('#banner .item').eq(res.code).html(tmp);
+        
+        // console.log(tmp);
+
+    })
+}
+
+// getBanner('banner_list' + 1).then((res)=>{
 //     console.log(res);
-//     // initBanner(res);
 // })
 
-window.onresize  = function(){
+window.onresize = function () {
     // console.log($(document).width());
     // console.log($('#lightning').width());
     // console.log( $('#lightning').offset().left);
     console.log();
 
-    if ($(document).width() <= ($('#lightning').width() + $('#lightning').offset().left) + (80 + 27)){
-        $('#suspension').css('display','none')
-        $('#suspensionMin').css('display','block')
+    if ($(document).width() <= ($('#lightning').width() + $('#lightning').offset().left) + (80 + 27)) {
+        $('#suspension').css('display', 'none')
+        $('#suspensionMin').css('display', 'block')
     } else {
-        $('#suspension').css('display','block')
-        $('#suspensionMin').css('display','none')
+        $('#suspension').css('display', 'block')
+        $('#suspensionMin').css('display', 'none')
     }
 }
 
 
 var username = localStorage.getItem('username');
-if (username){
+if (username) {
     $('.my').html(`
         <div class='l one'></div>
         <div class='l two'>
@@ -92,29 +118,32 @@ if (username){
     `)
 }
 
-$('.exit').on('mouseover',function(){
+$('.exit').on('mouseover', function () {
     $(this).css({
-        background : '#f5f5f5',
-        color : '#f60'
+        background: '#f5f5f5',
+        color: '#f60'
     })
 })
-$('.exit').on('mouseout',function(){
+$('.exit').on('mouseout', function () {
     $(this).css({
-        background : '#fff',
-        color : '#b0b0b0'
+        background: '#fff',
+        color: '#b0b0b0'
     })
 })
-$('.exit').on('click',function(){
+$('.exit').on('click', function () {
     localStorage.removeItem('username')
     window.location = './index.html'
 })
 
-$('.my ul').on('mouseover',function(){
-    $(this).css({background : '#fff'}).find('.center').css({ color : '#f60'});
-    $(this).animate({height : 78},0);
+$('.my ul').on('mouseover', function () {
+    $(this).css({ background: '#fff' }).find('.center').css({ color: '#f60' });
+    $(this).animate({ height: 78 }, 0);
 })
 
-$('.my ul').on('mouseout',function(){
-    $(this).css({background : ''}).find('.center').css({ color : '#b0b0b0'});
-    $(this).animate({height : 40},0);
+$('.my ul').on('mouseout', function () {
+    $(this).css({ background: '' }).find('.center').css({ color: '#b0b0b0' });
+    $(this).animate({ height: 40 }, 0);
 })
+
+
+

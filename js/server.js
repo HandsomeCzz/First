@@ -17,20 +17,16 @@
         return $.ajax('js/json/collocation.json');
     }
 
-    function getBanner(){
-        //return $.ajax('js/json/collocation.json');
-        return [[$.ajax('js/json/banner_list1.json')],
-        [$.ajax('js/json/banner_list2.json')],
-        [$.ajax('js/json/banner_list3.json')],
-        [$.ajax('js/json/banner_list4.json')],
-        [$.ajax('js/json/banner_list5.json')],
-        [$.ajax('js/json/banner_list6.json')],
-        [$.ajax('js/json/banner_list7.json')],
-        [$.ajax('js/json/banner_list8.json')],
-        [$.ajax('js/json/banner_list9.json')],
-        [$.ajax('js/json/banner_list10.json')],
-        ]
+    // function getBanner(banner){
+    //     //return $.ajax('js/json/collocation.json');
+    //     console.log(`js/json/${banner}.json`);
+    //     return [$.ajax(`js/json/${banner}.json`)]
+    // }
+
+    function getBanner(banner){
+        return $.ajax('js/json/'+banner+'.json');
     }
+
 
     export{getElectric as getElectric, getAi as getAi , getCollocation as getCollocation , getBanner as getBanner}
 

@@ -249,7 +249,8 @@ a:hover{color: #fff;}
 /*===================content================*/    
 
 .content{
-    height: 760px;
+    /* height: 760px; */
+    overflow: hidden;
     padding: 30px 0 12px;
    
 }
@@ -320,7 +321,6 @@ a:hover{color: #fff;}
 
 /*================内容===============*/
 .content .neirong{
-    height: 772px;
     width: 600px;
     padding-left: 20px;
 }
@@ -387,6 +387,40 @@ a:hover{color: #fff;}
 }
 .content .neirong .weizhi>span:nth-of-type(2){
     color:#ff4a00;
+}
+.content .neirong .code{
+    height: 26px;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.content .neirong .select{
+    display: table;
+    width: 610px;
+}
+.content .neirong .select li{
+    margin-right: 12px;
+    margin-top: 10px;
+    line-height: 42px;
+    height: 42px;
+    position: relative;
+    border: 1px solid #e0e0e0;
+    list-style: none;
+    cursor: pointer;
+    -webkit-transition: all .2s ease;
+    transition: all .2s ease;
+    float: left;
+    width: 292px;
+    font-size: 16px;
+    text-align: center;
+    /* border:  1px solid #f60; */
+}
+.content .neirong .select .active{
+    border-color: #f60;
+    color: #f60;
+}
+.content .neirong .select li:hover{
+    border-color: #f60;
+    color: #f60;
 }
 .content .neirong .choose{
     height: 26px;

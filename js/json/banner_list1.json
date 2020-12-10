@@ -1,7 +1,7 @@
 {
-    "type" : "collocation",
+    "type" : "banner_list1",
     "code" : 0,
-    "collocation_list" : [
+    "banner_list" : [
         [
             {
                 "imgUrl" : "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/5ca871528d3420622f21f25be7aba58c.png?thumb=1&w=40&h=40&f=webp&q=90",
