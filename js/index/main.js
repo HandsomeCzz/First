@@ -97,14 +97,14 @@ if (username) {
         <div class='l one'></div>
         <div class='l two'>
             <ul>
-                <li><a class="center" href="./html/login/login.html">${username}</a></li>
+                <li><a class="center" href="">${username}</a></li>
                 <li class='exit'>退出登陆</li>
             </ul>
         </div>
         <span>|</span>
         <a href="#">消息通知</a>
         <span>|</span>
-        <a href="./html/reg.html">我的订单</a>
+        <a href="#">我的订单</a>
     `)
 } else {
     $('.my').html(`

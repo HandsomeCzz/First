@@ -110,6 +110,7 @@ function aj(){
             
             var href = localStorage.getItem('href')
             if (href){
+                localStorage.removeItem('href');
                 window.location.replace(href);
             } else {
                 window.location.replace('../../index.html');

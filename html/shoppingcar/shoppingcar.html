@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <header>
+    <header class="min">
         <section class="w">
             <a href="https://www.mi.com/index.html">
                 <div id='logo' class='l'>
@@ -27,7 +27,7 @@
             </div>
         </section>
     </header>
-    <div id="main">
+    <div id="main" class="min">
         <main class="w">
             <div id="banner">
                 <div class="r">
@@ -40,7 +40,7 @@
                 <div class="shoppingcar w">
                     <div class="header">
                         <div class="l check">
-                            <input type="checkbox"> 全选
+                            <input class="all" type="checkbox"> 全选
                         </div>
                         <div class="l image"></div>
                         <div class="l name">
@@ -59,7 +59,38 @@
                             操作
                         </div>
                     </div>
-                    <div class="item"></div>
+                    <div class="item">
+                        <ul>
+                            <li>
+                                <div class="l check">
+                                    <input type="checkbox">
+                                </div>
+                                <div class="l image"></div>
+                                <div class="l name">
+                                    商品名称
+                                </div>
+                                <div class="l price">
+                                    单价
+                                </div>
+                                <div class="l num">
+                                    数量
+                                </div>
+                                <div class="l sum">
+                                    小计
+                                </div>
+                                <div class="l do">
+                                    操作
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="footer">
+                        <p>合计:<span></span>元</p>
+                        <a href="">
+                            去结算
+                        </a>
+                    </div>
                 </div>
             </div>
             <div id="bottom">

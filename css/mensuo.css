@@ -6,7 +6,7 @@ input{outline: none; border: 0; }
 img{display: block;}
 /*------------------------第二步：定义全局样式-----------------------*/
 /* body{font-size: 14px; color: #3e3e3e; font-family: "微软雅黑"; height: 2000px;} */
-body{font: 14px/1.5 Helvetica Neue,Helvetica,Arial,Microsoft Yahei,Hiragino Sans GB,Heiti SC,WenQuanYi Micro Hei,sans-serif; height: 4000px;}
+body{font: 14px/1.5 Helvetica Neue,Helvetica,Arial,Microsoft Yahei,Hiragino Sans GB,Heiti SC,WenQuanYi Micro Hei,sans-serif;}
 /*------------------------第三步：定义超链接样式---------------------*/
 a{text-decoration: none; color: #999;}
 a:hover{color: #fff;}
@@ -57,6 +57,45 @@ a:hover{color: #fff;}
     color: #f60;
 }
 
+#nav .my{
+    position: relative;
+}
+#nav .my .one{
+    width: 77px;
+    opacity: 0;
+    height: 40px;
+}
+#nav .my .two{
+    padding: 0 5px;
+    position: absolute;
+    left: 0;
+    height: 40px;
+    width: 77px;
+    /* overflow: hidden; */
+}
+#nav .my ul{
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+    transition: all .5s;
+    height: 40px;
+    z-index: 20;
+    left: -3px;
+}
+#nav .my ul li:nth-child(1){
+    height: 41px;
+    line-height: 40px;
+    margin-bottom: 5px;
+}
+#nav .my ul li{
+    width: 100%;
+    text-align: center;
+    color: #b0b0b0;
+    line-height: 2;
+    font-size: 12px;
+    cursor: pointer;
+    padding: 0 5px;
+}
 
     /* search */
     #search {
